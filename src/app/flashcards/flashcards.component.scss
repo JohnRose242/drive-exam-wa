@@ -28,15 +28,18 @@
     width: 100%;
     text-align: center;
     backface-visibility: hidden;
-    color: white;
     border:2px solid #869B5B;
-    background-color: darkkhaki;
     display: flex;
     gap: 0.5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     line-height: 1.5;
+  }
+
+  .flashcard .front {
+    color: white;
+    background-color: darkkhaki;
   }
 
   .flashcard .back {

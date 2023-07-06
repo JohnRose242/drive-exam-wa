@@ -8,7 +8,8 @@
     "build-prod": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "heroku-postbuild": "ng build --configuration production"
+    "heroku-postbuild": "ng build --configuration production",
+    "serve": "ng serve"
   },
   "engines": { "node": "18.12.1", "npm": "8.19.2" },
   "private": true,

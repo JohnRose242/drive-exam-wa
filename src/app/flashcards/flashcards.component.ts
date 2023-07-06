@@ -20,10 +20,11 @@ export class FlashcardsComponent implements OnInit {
 
   public setFlashcard() {
     const card = this.examService.getExam(1)[0];
+    const showAll = card.options.find((opt: any) => opt.id === card.answer).text === 'All of these.';
     this.flashcard = {
       frontImage: card.imageId,
       frontText: card.question,
-      backText: card.options.find((opt: any) => opt.id === card.answer).text
+      backText: showAll ? card.options.map((opt: any) => opt.text).filter((t: string) => t !== 'All of these.') : [card.options.find((opt: any) => opt.id === card.answer).text]
     }
   }
 

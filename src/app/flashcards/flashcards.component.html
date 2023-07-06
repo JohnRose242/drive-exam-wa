@@ -5,7 +5,9 @@
       {{flashcard.frontText}}
     </div>
     <div class="back">
-      {{flashcard.backText}}
+      <div class="content">
+        <p *ngFor="let text of flashcard.backText">{{ text }}</p>
+      </div>
     </div>
   </div>
   <button mat-raised-button color="primary" (click)="next()">Next</button>

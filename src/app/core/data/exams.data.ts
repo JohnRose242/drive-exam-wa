@@ -675,6 +675,7 @@ export const examQuestions = [
     ],
     question: 'A flashing red light:',
     response: null,
+    showAll: true
   },
   {
     answer: 1,
@@ -813,6 +814,7 @@ export const examQuestions = [
     ],
     question: `You are driving when it starts to sleet or snow.  You should:`,
     response: null,
+    showAll: true
   },
   {
     answer: 4,
@@ -836,6 +838,7 @@ export const examQuestions = [
     ],
     question: `As you drive, your are required to stop your vehicle:`,
     response: null,
+    showAll: true
   },
   {
     answer: 1,
@@ -1461,6 +1464,7 @@ export const examQuestions = [
     ],
     question: `When getting ready to change lanes, you should:`,
     response: null,
+    showAll: true
   },
   {
     answer: 4,
@@ -1507,6 +1511,7 @@ export const examQuestions = [
     ],
     question: `Braking distance is affected by:`,
     response: null,
+    showAll: true
   },
   {
     answer: 3,
@@ -1647,6 +1652,7 @@ export const examQuestions = [
     ],
     question: `Distracted drivers are at a greater risk of a crash when they are using which of the following?`,
     response: null,
+    showAll: true
   },
   {
     answer: 2,
@@ -1716,6 +1722,7 @@ export const examQuestions = [
     ],
     question: `Road rage and aggressive driving may be reduced by:`,
     response: null,
+    showAll: true
   },
   {
     answer: 4,
@@ -1762,6 +1769,7 @@ export const examQuestions = [
     ],
     question: `Which of the following statements is true?`,
     response: null,
+    showAll: true
   },
   {
     answer: 4,
@@ -1902,6 +1910,7 @@ export const examQuestions = [
     ],
     question: `If you experience a tire blowout:`,
     response: null,
+    showAll: true
   },
   {
     answer: 1,
@@ -2204,6 +2213,7 @@ export const examQuestions = [
     ],
     question: `Look over your shoulder to check your blind spot when:`,
     response: null,
+    showAll: true
   },
   {
     answer: 2,
@@ -2596,6 +2606,7 @@ export const examQuestions = [
     ],
     question: `If involved in an accident, a driver should:`,
     response: null,
+    showAll: true
   },
   {
     answer: 1,
@@ -3127,6 +3138,7 @@ export const examQuestions = [
     ],
     question: `When you need to change lanes, it is important to:`,
     response: null,
+    showAll: true
   },
   {
     answer: 1,
@@ -3403,6 +3415,7 @@ export const examQuestions = [
     ],
     question: `You are approaching a railroad crossing that has no visible gates or flashing lights, but has a standard crossbuck. You should:`,
     response: null,
+    showAll: true
   },
   {
     answer: 3,
@@ -3725,6 +3738,7 @@ export const examQuestions = [
     ],
     question: `When approaching an accident scene, you should:`,
     response: null,
+    showAll: true
   },
   {
     answer: 4,
@@ -3818,6 +3832,7 @@ export const examQuestions = [
     ],
     question: `Always signal when:`,
     response: null,
+    showAll: true
   },
   {
     answer: 4,
@@ -4028,7 +4043,7 @@ export const examQuestions = [
     response: null,
   },
   {
-    answer: 1,
+    answer: 4,
     options: [
       {
         id: 1,
@@ -4049,6 +4064,7 @@ export const examQuestions = [
     ],
     question: `If you leave your vehicle unattended, you must:`,
     response: null,
+    showAll: true
   },
   {
     answer: 2,
@@ -4095,6 +4111,7 @@ export const examQuestions = [
     ],
     question: `At a light rail intersection, always:`,
     response: null,
+    showAll: true
   },
   {
     answer: 2,
@@ -4303,6 +4320,7 @@ export const examQuestions = [
     ],
     question: `When you see other drivers around you acting or reacting in anger:`,
     response: null,
+    showAll: true
   },
   {
     answer: 2,
@@ -4349,6 +4367,7 @@ export const examQuestions = [
     ],
     question: `Which of the following commonly causes traffic accidents?`,
     response: null,
+    showAll: true
   },
   {
     answer: 4,
@@ -4510,6 +4529,7 @@ export const examQuestions = [
     ],
     question: `You are involved in an accident. You should:`,
     response: null,
+    showAll: true
   },
   {
     answer: 2,

@@ -3290,7 +3290,7 @@ export const examQuestions = [
     response: null,
   },
   {
-    answer: 1,
+    answer: 2,
     options: [
       {
         id: 1,

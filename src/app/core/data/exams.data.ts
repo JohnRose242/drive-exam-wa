@@ -2978,7 +2978,7 @@ export const examQuestions = [
     response: null,
   },
   {
-    answer: 1,
+    answer: 4,
     options: [
       {
         id: 1,
@@ -3717,7 +3717,7 @@ export const examQuestions = [
     response: null,
   },
   {
-    answer: 4,
+    answer: 1,
     options: [
       {
         id: 1,
@@ -4115,7 +4115,7 @@ export const examQuestions = [
   },
   {
     answer: 2,
-    imageId: 28,
+    imageId: 35,
     options: [
       {
         id: 1,

@@ -4695,4 +4695,904 @@ export const examQuestions = [
     question: `This road sign means:`,
     response: null,
   },
+  {
+    answer: 4,
+    options: [
+      {
+        id: 1,
+        text: `Your seat belt.`
+      },
+      {
+        id: 2,
+        text: `The steering wheel.`
+      },
+      {
+        id: 3,
+        text: `Your rearview mirror.`
+      },
+      {
+        id: 4,
+        text: `Your seat.`
+      }
+    ],
+    question: `What is the first thing you should adjust, if needed, when you get into a car to drive?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Slow down as you enter, speed up as you exit.`
+      },
+      {
+        id: 2,
+        text: `Maintain a constant speed throughout the curve.`
+      },
+      {
+        id: 3,
+        text: `Speed up as you enter, slow down as you exit.`
+      },
+      {
+        id: 4,
+        text: `Stay near the right edge of your lane.`
+      }
+    ],
+    question: `Which of the following is a safe way to drive through a curve?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `You cannot see without moving your head.`
+      },
+      {
+        id: 2,
+        text: `Directly behind your vehicle.`
+      },
+      {
+        id: 3,
+        text: `You see in your rearview mirror.`
+      },
+      {
+        id: 4,
+        text: `You see in your side mirror.`
+      }
+    ],
+    question: `Your blind spot is the area of the road:`,
+    response: null,
+  },
+  {
+    answer: 2,
+    imageId: 32,
+    options: [
+      {
+        id: 1,
+        text: `Slow down and prepare to stop if cars are approaching you.`
+      },
+      {
+        id: 2,
+        text: `Come to a full stop and go when it is safe to do so.`
+      },
+      {
+        id: 3,
+        text: `Proceed carefully through the intersection, not always stopping.`
+      },
+      {
+        id: 4,
+        text: `Stop only for traffic on an intersecting road.`
+      }
+    ],
+    question: `This road sign means:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 33,
+    options: [
+      {
+        id: 1,
+        text: `T-intersection.`
+      },
+      {
+        id: 2,
+        text: `Lane shifting.`
+      },
+      {
+        id: 3,
+        text: `Side road.`
+      },
+      {
+        id: 4,
+        text: `Do not block intersection.`
+      }
+    ],
+    question: `This road sign means:`,
+    response: null,
+  },
+  {
+    answer: 4,
+    imageId: 34,
+    options: [
+      {
+        id: 1,
+        text: `Emergency vehicles ahead.`
+      },
+      {
+        id: 2,
+        text: `Uncontrolled intersection ahead.`
+      },
+      {
+        id: 3,
+        text: `Four-way stop ahead.`
+      },
+      {
+        id: 4,
+        text: `Traffic signal ahead.`
+      }
+    ],
+    question: `This road sign means:`,
+    response: null,
+  },
+  {
+    answer: 4,
+    options: [
+      {
+        id: 1,
+        text: `Rely only on your mirrors.`
+      },
+      {
+        id: 2,
+        text: `Flash your lights.`
+      },
+      {
+        id: 3,
+        text: `Open your doors to see if it is safe to proceed.`
+      },
+      {
+        id: 4,
+        text: `Turn your head and look through the rear window.`
+      }
+    ],
+    question: `While backing, you should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Even the smallest amount of alcohol can`
+      },
+      {
+        id: 2,
+        text: `Only a blood alcohol level greater than the legal limit can`
+      },
+      {
+        id: 3,
+        text: `Alcohol does not`
+      },
+      {
+        id: 4,
+        text: `Only a blood alcohol level greater than 0.05 percent can`
+      }
+    ],
+    question: `____ limit your concentration, perception, judgment, and memory.`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Is illegal.`
+      },
+      {
+        id: 2,
+        text: `Is safer than using a hands-free cell phone.`
+      },
+      {
+        id: 3,
+        text: `May only be done by teenage drivers.`
+      },
+      {
+        id: 4,
+        text: `Is recommended.`
+      }
+    ],
+    question: `Using a hand-help cell phone to make a phone call while driving:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Plan your trip in advance.`
+      },
+      {
+        id: 2,
+        text: `Depend on road signs to find your way.`
+      },
+      {
+        id: 3,
+        text: `Only have to know generally where your destination is.`
+      },
+      {
+        id: 4,
+        text: `Always choose the most difficult route.`
+      }
+    ],
+    question: `When driving to an unfamilar area, you should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `More dangerous.`
+      },
+      {
+        id: 2,
+        text: `Less dangerous.`
+      },
+      {
+        id: 3,
+        text: `No more or less dangerous.`
+      },
+      {
+        id: 4,
+        text: `Easier on your eyes.`
+      }
+    ],
+    question: `Compared to driving in the day, driving at night is:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Stop and let the pedestrian cross.`
+      },
+      {
+        id: 2,
+        text: `Flash your lights.`
+      },
+      {
+        id: 3,
+        text: `Slow down.`
+      },
+      {
+        id: 4,
+        text: `Speed up and pass in front of the pedestrian.`
+      }
+    ],
+    question: `A pedestrian starts to cross in front of your vehicle. You should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Reduce their speed and increase their following distance.`
+      },
+      {
+        id: 2,
+        text: `Add extra weight to their vehicles to improve traction.`
+      },
+      {
+        id: 3,
+        text: `Get off the highways as quickly as possible.`
+      },
+      {
+        id: 4,
+        text: `Engage the four-wheel drive on their vehicles.`
+      }
+    ],
+    question: `When driving under icy or snowy conditions, which driving technique will help drivers avoid crashed?:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `4 feet, 9 inches.`
+      },
+      {
+        id: 2,
+        text: `5 feet, 5 inches.`
+      },
+      {
+        id: 3,
+        text: `5 feet.`
+      },
+      {
+        id: 4,
+        text: `4 feet, 11 inches.`
+      }
+    ],
+    question: `The Child Restraint Law requires children who are under the age of eight and less than ____ in height to be seated in an approved safety restraint system.`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `At least one year.`
+      },
+      {
+        id: 2,
+        text: `90 days.`
+      },
+      {
+        id: 3,
+        text: `6 months.`
+      },
+      {
+        id: 4,
+        text: `At least two years.`
+      }
+    ],
+    question: `If you refuse to take a test determining your blood alcohol content (BAC), you will lose your driver license for:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `A stop sign.`
+      },
+      {
+        id: 2,
+        text: `Solid red light.`
+      },
+      {
+        id: 3,
+        text: `Yield sign.`
+      },
+      {
+        id: 4,
+        text: `Caution sign.`
+      }
+    ],
+    question: `A flashing red light has the same meaning as:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `How physically fit you are.`
+      },
+      {
+        id: 2,
+        text: `Your body weight.`
+      },
+      {
+        id: 3,
+        text: `How much you drink.`
+      },
+      {
+        id: 4,
+        text: `How much time passes between drinks.`
+      }
+    ],
+    question: `Blood alcohol content (BAC) depends on each of the following, except:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `May drive through the intersection if the road is clear.`
+      },
+      {
+        id: 2,
+        text: `Must slow down and prepare to stop.`
+      },
+      {
+        id: 3,
+        text: `Must stop and check for oncoming traffic before proceeding.`
+      },
+      {
+        id: 4,
+        text: `May not turn right.`
+      }
+    ],
+    question: `A steady green light at an intersection means that you:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `The maximum safe driving speed under ideal road and weather conditions.`
+      },
+      {
+        id: 2,
+        text: `Only a recommended driving speed.`
+      },
+      {
+        id: 3,
+        text: `The exact speed which you must travel to avoid getting a ticket.`
+      },
+      {
+        id: 4,
+        text: `The maximum safe driving speed under all road conditions.`
+      }
+    ],
+    question: `The posted speed limit shows:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Avoid driving alongside them and avoid tailgating.`
+      },
+      {
+        id: 2,
+        text: `Never pass them.`
+      },
+      {
+        id: 3,
+        text: `Flash your lights at them.`
+      },
+      {
+        id: 4,
+        text: `Sound your horn.`
+      }
+    ],
+    question: `To avoid being in a truck or bus driver's blind spot, you should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Driving behind a large vehicle that blocks your vision.`
+      },
+      {
+        id: 3,
+        text: `Exiting an expressway.`
+      },
+      {
+        id: 4,
+        text: `Following a motorcycle.`
+      }
+    ],
+    question: `Increase your following distance when:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Use high beams whenever there are no oncoming vehicles.`
+      },
+      {
+        id: 2,
+        text: `Use sunglasses to reduce glare from headlights.`
+      },
+      {
+        id: 3,
+        text: `Use your high beams if it is also raining.`
+      },
+      {
+        id: 4,
+        text: `Use your dome light to help see your speedometer.`
+      }
+    ],
+    question: `When driving at night, slow down and:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Keep your tires properly maintained.`
+      },
+      {
+        id: 3,
+        text: `Slow down when roads are wet or slushy.`
+      },
+      {
+        id: 4,
+        text: `Watch out for standing water or puddles.`
+      }
+    ],
+    question: `The best way to avoid hydroplaning is to:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Slow down.`
+      },
+      {
+        id: 2,
+        text: `Drive faster than surrounding traffic.`
+      },
+      {
+        id: 3,
+        text: `Drive at the maximum posted speed limit.`
+      },
+      {
+        id: 4,
+        text: `Drive closely behind the vehicle that is in front of you.`
+      }
+    ],
+    question: `Your driving when it begins to rain.  You should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `100 feet.`
+      },
+      {
+        id: 2,
+        text: `50 feet.`
+      },
+      {
+        id: 3,
+        text: `75 feet.`
+      },
+      {
+        id: 4,
+        text: `125 feet.`
+      }
+    ],
+    question: `Before you change directions, you must keep your turn signals on for at least:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Vehicles in the roundabout.`
+      },
+      {
+        id: 3,
+        text: `Bicyclists in the roundabout.`
+      },
+      {
+        id: 4,
+        text: `Pedestrians in the roundabout.`
+      }
+    ],
+    question: `Before entering a roundabout, you must slow down and yield to:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `When one train passes, look for another train on th other track before proceeding.`
+      },
+      {
+        id: 2,
+        text: `It is always safe to proceed after one train passes.`
+      },
+      {
+        id: 3,
+        text: `You must always stop before crossing the tracks.`
+      },
+      {
+        id: 4,
+        text: `Honk your horn as you cross the tracks.`
+      }
+    ],
+    question: `If there are two railroad tracks next to each other:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Keep physically fit and have regular physical examinations.`
+      },
+      {
+        id: 3,
+        text: `Know the effect of any medication on your driving ability.`
+      },
+      {
+        id: 4,
+        text: `Drive within your physical limitations.`
+      }
+    ],
+    question: `To ensure that your physical condition does not cause you to drive in an unsafe manner, you should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Only if you are travelling in the same direction as the bus.`
+      },
+      {
+        id: 2,
+        text: `If you're travelling in either direction.`
+      },
+      {
+        id: 3,
+        text: `If you're travelling in the opposite direction of the bus.`
+      },
+      {
+        id: 4,
+        text: `Only if children are crossing the road.`
+      }
+    ],
+    question: `On a roadway with three or more lanes, you must stop for a school bus with flashing red lights:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Directed to do so by a flagger.`
+      },
+      {
+        id: 3,
+        text: `It is controlled by a stop sign.`
+      },
+      {
+        id: 4,
+        text: `Flashing red signals and gates are present and operating.`
+      }
+    ],
+    question: `You must stop at a railroad crossing when:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Drive toward the nearest roadside and stop.`
+      },
+      {
+        id: 2,
+        text: `Drive with your flashers turned on.`
+      },
+      {
+        id: 3,
+        text: `Speed up and take the nearest exit.`
+      },
+      {
+        id: 4,
+        text: `Slow down until the vehicle passes you.`
+      }
+    ],
+    question: `If you are driving on a one-way street and an emergency vehicle using its flashing lights approaches your vehicle, you must:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Illegal to either drink from or possess open containers of alcohol in the passenger compartment.`
+      },
+      {
+        id: 2,
+        text: `Legal to drink if you're not driving.`
+      },
+      {
+        id: 3,
+        text: `Legal to drink if you're driving but not drunk.`
+      },
+      {
+        id: 4,
+        text: `Illegal to drink from, but all right to transport open containers of alcohol in the passenger compartment.`
+      }
+    ],
+    question: `When in a motor vehicle on a highway, it is:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `That the new 35 MPH speed limit begins at this sign.`
+      },
+      {
+        id: 2,
+        text: `That the new 35 MPH speed limit begins at the next speed limit sign.`
+      },
+      {
+        id: 3,
+        text: `That you have plenty of time to slow down before the reduced speed zone.`
+      },
+      {
+        id: 4,
+        text: `That you should reduce your speed to 35 MPH, but only under poor weather conditions.`
+      }
+    ],
+    question: `When driving, you come upon a sign displaying the words "Reduced Speed, 35 mph." This means:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Yield to oncoming vehicles.`
+      },
+      {
+        id: 2,
+        text: `Sound your horn.`
+      },
+      {
+        id: 3,
+        text: `Swing to the right side of your lane.`
+      },
+      {
+        id: 4,
+        text: `Wait until oncoming traffic has a red light.`
+      }
+    ],
+    question: `Before turning left it is important to:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Over your left shoulder.`
+      },
+      {
+        id: 2,
+        text: `Over your right shoulder.`
+      },
+      {
+        id: 3,
+        text: `At your side mirrow.`
+      },
+      {
+        id: 4,
+        text: `At your rearview mirror.`
+      }
+    ],
+    question: `To check your blind spot when changing lanes to the left, you should glance:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Turn off your ignition, taking care not to engage the steering wheel locking mechanism.`
+      },
+      {
+        id: 2,
+        text: `Blow your horn.`
+      },
+      {
+        id: 3,
+        text: `Slam on your brakes.`
+      },
+      {
+        id: 4,
+        text: `Turn on your four-way flashers.`
+      }
+    ],
+    question: `You are driving on a busy street and your vehicle's accelerator sticks open.  You should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Can be ticketed.`
+      },
+      {
+        id: 2,
+        text: `Is in the right because bicyclists don't have to obey traffic laws.`
+      },
+      {
+        id: 3,
+        text: `Will always receive a warning from law enforcement.`
+      },
+      {
+        id: 4,
+        text: `Will have their bicycle impounded.`
+      }
+    ],
+    question: `A bicyclist who doesn't obey traffic laws:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Slow down once moving onto the exit ramp.`
+      },
+      {
+        id: 2,
+        text: `Slow down before entering the exit ramp.`
+      },
+      {
+        id: 3,
+        text: `Keep your speed constant once in the exit ramp.`
+      },
+      {
+        id: 4,
+        text: `Pass slower traffic in the exit ramp.`
+      }
+    ],
+    question: `The correct way to use a freeway exit ramp is to:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Return to the driving lane when there is enough room between you and the vehicle you passed.`
+      },
+      {
+        id: 2,
+        text: `Remain in the left lane if you intend to turn left.`
+      },
+      {
+        id: 3,
+        text: `Drive in either lane.`
+      },
+      {
+        id: 4,
+        text: `Return to the right side of the roadway immediately.`
+      }
+    ],
+    question: `When passing another vehicle on a road with two lanes travelling in opposite directions, you should:`,
+    response: null,
+  },
 ]

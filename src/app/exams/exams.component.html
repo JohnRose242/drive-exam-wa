@@ -1,0 +1,63 @@
+<div class="progress-container">
+  <div *ngIf="!inprogress">
+    <div>
+      <mat-form-field class="example-full-width">
+        <mat-label>Number of Questions</mat-label>
+        <input type="number" min="1" max="500" matInput [(ngModel)]="count">
+      </mat-form-field>
+    </div>
+    <div>
+      <button mat-flat-button (click)="start()">Start</button>
+    </div>
+  </div>
+  <div *ngIf="inprogress">
+    <h1>Questions Completed</h1>
+    <h1>{{ completed }}</h1>
+  </div>
+  <div *ngIf="inprogress">
+    <h1>Correct</h1>
+    <h1>{{ correct }}</h1>
+  </div>
+  <div *ngIf="inprogress">
+    <h1>Incorrect</h1>
+    <h1>{{ incorrect }}</h1>
+  </div>
+  <div *ngIf="inprogress">
+    <h1>Percent</h1>
+    <h1>{{ percent }}%</h1>
+    <button mat-flat-button color="primary" (click)="reset()">Reset</button>
+  </div>
+</div>
+<form [formGroup]="exam">
+  <div formArrayName="questions">
+    <ng-container *ngFor="let question of questions.controls; let i = index">
+      <mat-card [formGroupName]="i"
+                [class.correct]="question.value.response && question.value.response === question.value.answer"
+                [class.incorrect]="question.value.response && question.value.response !== question.value.answer">
+        <mat-card-header>
+          <mat-card-title>
+            <span>{{ i + 1 }}) </span>
+            <img *ngIf="question.value.imageId" src="{{ 'assets/images/' + question.value.imageId + '.png' }}">
+            <span> {{ question.value.text }}</span>
+          </mat-card-title>
+        </mat-card-header>
+        <div class="options">
+          <mat-radio-group formControlName="response" (change)="disableControl(question)"
+            class="radio-group">
+            <mat-radio-button class="radio-button"
+              *ngFor="let option of question.value.options" [value]="option.id">
+              {{ option.text }}
+            </mat-radio-button>
+          </mat-radio-group>
+        </div>
+        <div class="correct-response" *ngIf="question.value.response && question.value.response !== question.value.answer">
+          <h3 class="incorrect">Incorrect!</h3>
+          <h3>The Correct Response is:</h3>
+          <h3>{{getCorrectAnswer(question)}}</h3>
+        </div>
+      </mat-card>
+    </ng-container>
+  </div>
+</form>
+
+

@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="flashcard" [class.flipped]="flipped" (click)="toggle()">
+    <div class="front">
+      <img *ngIf="flashcard.frontImage" src="{{ 'assets/images/' + flashcard.frontImage + '.png' }}">
+      {{flashcard.frontText}}
+    </div>
+    <div class="back">
+      {{flashcard.backText}}
+    </div>
+  </div>
+  <button mat-raised-button color="primary" (click)="next()">Next</button>
+</div>

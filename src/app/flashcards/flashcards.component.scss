@@ -1,0 +1,53 @@
+:host {
+
+  .container {
+    padding-top: 4rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+
+  .flashcard {
+    height: 75%;
+    width: 75%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+  }
+
+  .flashcard div {
+    font-size: 20px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    backface-visibility: hidden;
+    color: white;
+    border:2px solid #869B5B;
+    background-color: darkkhaki;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+  }
+
+  .flashcard .back {
+    transform: rotateY(180deg);
+    color: #869B5B;
+    background-color: white;
+  }
+
+
+  .flashcard.flipped {
+    transform: rotateY(180deg);
+  }
+
+}

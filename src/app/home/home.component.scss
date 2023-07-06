@@ -1,0 +1,18 @@
+:host {
+  .content {
+    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: end;
+    height: 90vh;
+    background-image: url('../../assets/images/home-background.png');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+
+    button {
+      width: 25%;
+      text-transform: uppercase;
+    }
+  }
+}

@@ -3,7 +3,7 @@
     <div>
       <mat-form-field class="example-full-width">
         <mat-label>Number of Questions</mat-label>
-        <input type="number" min="1" max="500" matInput [(ngModel)]="count">
+        <input type="number" min="1" max="500" matInput [(ngModel)]="count" (keydown)="$event.key === 'Enter' ? start() : null">
       </mat-form-field>
     </div>
     <div>
@@ -11,7 +11,7 @@
     </div>
   </div>
   <div *ngIf="inprogress">
-    <h1>Questions Completed</h1>
+    <h1>Completed</h1>
     <h1>{{ completed }}</h1>
   </div>
   <div *ngIf="inprogress">

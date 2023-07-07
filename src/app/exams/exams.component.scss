@@ -75,4 +75,10 @@
       color: #E32525
     }
   }
+
+  @media (max-width: 576px) {
+    .header {
+      display: none;
+    }
+  }
 }

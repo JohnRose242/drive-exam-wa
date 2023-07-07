@@ -24,13 +24,17 @@ export class FlashcardsComponent implements OnInit {
     this.flashcard = {
       frontImage: card.imageId,
       frontText: card.question,
-      backText: showAll ? card.options.map((opt: any) => opt.text).filter((t: string) => t !== 'All of these.') : [card.options.find((opt: any) => opt.id === card.answer).text]
+      backText: showAll
+        ? card.options.map((opt: any) => opt.text).filter((t: string) => t !== 'All of these.')
+        : [card.options.find((opt: any) => opt.id === card.answer).text]
     }
   }
 
   public next() {
     this.flipped = false;
-    this.setFlashcard();
+    setTimeout(() => {
+      this.setFlashcard();
+    }, 200);
   }
 
   public toggle() {

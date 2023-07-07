@@ -10,5 +10,8 @@
       </div>
     </div>
   </div>
-  <button mat-raised-button color="primary" (click)="next()">Next</button>
+  <div class="button-container">
+    <button mat-raised-button color="primary" (click)="previous()" [disabled]="index === 0"><<<</button>
+    <button mat-raised-button color="primary" (click)="next()" [disabled]="index === flashcards.length - 1">>>></button>
+  </div>
 </div>

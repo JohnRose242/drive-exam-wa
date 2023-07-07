@@ -51,4 +51,10 @@
     transform: rotateY(180deg);
   }
 
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
 }

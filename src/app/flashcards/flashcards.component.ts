@@ -9,17 +9,20 @@ import { ExamService } from '../core/services/exam.service';
 export class FlashcardsComponent implements OnInit {
   flipped = false;
   flashcard: any;
+  flashcards: any[] = [];
+  index = 0;
 
   constructor(
     private examService: ExamService
   ) {}
 
   public ngOnInit() {
+    this.flashcards = this.examService.getExam(500);
     this.setFlashcard();
   }
 
-  public setFlashcard() {
-    const card = this.examService.getExam(1)[0];
+  public setFlashcard(index = 0) {
+    const card = this.flashcards[index];
     const showAll = card.options.find((opt: any) => opt.id === card.answer).text === 'All of these.';
     this.flashcard = {
       frontImage: card.imageId,
@@ -27,13 +30,21 @@ export class FlashcardsComponent implements OnInit {
       backText: showAll
         ? card.options.map((opt: any) => opt.text).filter((t: string) => t !== 'All of these.')
         : [card.options.find((opt: any) => opt.id === card.answer).text]
-    }
+    };
+    this.index = index;
   }
 
   public next() {
     this.flipped = false;
     setTimeout(() => {
-      this.setFlashcard();
+      this.setFlashcard(this.index + 1);
+    }, 200);
+  }
+
+  public previous() {
+    this.flipped = false;
+    setTimeout(() => {
+      this.setFlashcard(this.index - 1);
     }, 200);
   }
 

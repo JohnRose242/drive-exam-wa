@@ -2990,7 +2990,7 @@ export const examQuestions = [
       },
       {
         id: 3,
-        text: `Drive carefully without stopping.`
+        text: `Pull off the road since the signal is not operating properly.`
       },
       {
         id: 4,
@@ -3222,11 +3222,11 @@ export const examQuestions = [
       },
       {
         id: 3,
-        text: `Carry insurance only if you ride a motorcycle or drive a large truck.`
+        text: `Carry insurance only if you are over 21 years of age.`
       },
       {
         id: 4,
-        text: `Carry insurance only if you ride a motorcycle or drive a large truck.`
+        text: `Carry insurance only if you are over 18 years of age.`
       }
     ],
     question: `If you operate a motor vehicle registered in Washington State, you must:`,
@@ -5593,6 +5593,423 @@ export const examQuestions = [
       }
     ],
     question: `When passing another vehicle on a road with two lanes travelling in opposite directions, you should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Turn on your emergency flashers and leave your low beams turned on.`
+      },
+      {
+        id: 2,
+        text: `Turn off all your lights.`
+      },
+      {
+        id: 3,
+        text: `Use your parking lights only.`
+      },
+      {
+        id: 4,
+        text: `Use your headlights only.`
+      }
+    ],
+    question: `If you stop along the road at night:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Changing lanes.`
+      },
+      {
+        id: 3,
+        text: `Pulling into or out of a parking space.`
+      },
+      {
+        id: 4,
+        text: `Pulling into traffic from a parking area or alley.`
+      }
+    ],
+    question: `Always signal when:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Stop.`
+      },
+      {
+        id: 2,
+        text: `Signal before going any further.`
+      },
+      {
+        id: 3,
+        text: `Maintain your speed and cross the railroad.`
+      },
+      {
+        id: 4,
+        text: `Slow down.`
+      }
+    ],
+    question: `If you see side-by-side red lights flashing at a railroad crossing, you must:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `One drink.`
+      },
+      {
+        id: 2,
+        text: `Half a drink.`
+      },
+      {
+        id: 3,
+        text: `Two drinks.`
+      },
+      {
+        id: 4,
+        text: `Three drinks.`
+      }
+    ],
+    question: `Generally, how many alcoholic drinks will the human body get rid of each hour?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Four seconds behind the vehicle in front of you.`
+      },
+      {
+        id: 2,
+        text: `Ten seconds behind the vehicle in front of you.`
+      },
+      {
+        id: 3,
+        text: `Two seconds behind the vehicle in front of you.`
+      },
+      {
+        id: 4,
+        text: `One second behind the vehicle in front of you.`
+      }
+    ],
+    question: `When driving at high speeds, always allow enough room to safely stop in emergencies by staying at least:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Flashing red light.`
+      },
+      {
+        id: 2,
+        text: `Steady yellow light.`
+      },
+      {
+        id: 3,
+        text: `Yellow arrow.`
+      },
+      {
+        id: 4,
+        text: `Flashing yellow light.`
+      }
+    ],
+    question: `You must stop at an intersection when you see a:`,
+    response: null,
+  },
+  {
+    answer: 2,
+    options: [
+      {
+        id: 1,
+        text: `Take the right-of-way since you have a green light.`
+      },
+      {
+        id: 2,
+        text: `Wait in the center of the intersection for traffic to clear.`
+      },
+      {
+        id: 3,
+        text: `Wait at the crosswalk for traffic to clear.`
+      },
+      {
+        id: 4,
+        text: `Use the next intersection.`
+      }
+    ],
+    question: `You want to turn left at an intersection. The light is green but oncoming traffic is heavy. You should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Larger blind spots.`
+      },
+      {
+        id: 2,
+        text: `Smaller blind spots.`
+      },
+      {
+        id: 3,
+        text: `No blind spots.`
+      },
+      {
+        id: 4,
+        text: `The same blind spots as smaller vehicles.`
+      }
+    ],
+    question: `Larger vehicles have:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `At or above 0.08 percent.`
+      },
+      {
+        id: 2,
+        text: `At or above 0.02 percent.`
+      },
+      {
+        id: 3,
+        text: `At or above 0.04 percent.`
+      },
+      {
+        id: 4,
+        text: `At or above 0.01 percent.`
+      }
+    ],
+    question: `In Washington State, an adult above the age of 21 is legally drunk when their blood alcohol content (BAC) is::`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Follow the directions given by the officer.`
+      },
+      {
+        id: 2,
+        text: `Follow the directions indicated by the traffic light.`
+      },
+      {
+        id: 3,
+        text: `Honk at the officer.`
+      },
+      {
+        id: 4,
+        text: `Check to see what the cars next to them are doing.`
+      }
+    ],
+    question: `If an officer is directing traffic at a working traffic light, drivers should:`,
+    response: null,
+  },
+  {
+    answer: 2,
+    options: [
+      {
+        id: 1,
+        text: `Only if it is following you.`
+      },
+      {
+        id: 2,
+        text: `Regardless of your direction.`
+      },
+      {
+        id: 3,
+        text: `Only if it is approaching you from the opposite direction.`
+      },
+      {
+        id: 4,
+        text: `None of these.`
+      }
+    ],
+    question: `You must pull over to the edge of the road and allow an emergency vehicle to pass:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Use low beam headlights.`
+      },
+      {
+        id: 2,
+        text: `Use high beam headlights.`
+      },
+      {
+        id: 3,
+        text: `Use parking lights.`
+      },
+      {
+        id: 4,
+        text: `Use no lights.`
+      }
+    ],
+    question: `When driving in rain, you must:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Is a good driving habit and is required by law.`
+      },
+      {
+        id: 2,
+        text: `Is necessary only if other traffic is present.`
+      },
+      {
+        id: 3,
+        text: `Is necessary only during the maneuver, not before.`
+      },
+      {
+        id: 4,
+        text: `Is not necessary if the maneuver is done slowly.`
+      }
+    ],
+    question: `Signaling your intentions before turning, changing lanes, or driving away from a curb:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 36,
+    options: [
+      {
+        id: 1,
+        text: `Must not pass another vehicle.`
+      },
+      {
+        id: 2,
+        text: `May pass a slow-moving vehicle if you can do so quickly.`
+      },
+      {
+        id: 3,
+        text: `May pass if you know the road ahead.`
+      },
+      {
+        id: 4,
+        text: `May pass, but only at night.`
+      }
+    ],
+    question: `What does this road sign mean:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Look ahead and maintain a safe following distance.`
+      },
+      {
+        id: 2,
+        text: `Honk your horn to make others aware of your presence.`
+      },
+      {
+        id: 3,
+        text: `Drive in the right lane only.`
+      },
+      {
+        id: 4,
+        text: `Drive more slowly than the flow of traffic.`
+      }
+    ],
+    question: `What can you do to avoid the need to make emergency stops while driving in traffic?`,
+    response: null,
+  },
+  {
+    answer: 3,
+    imageId: 37,
+    options: [
+      {
+        id: 1,
+        text: `There is a 35 mph speed zone after the curve ahead.`
+      },
+      {
+        id: 2,
+        text: `Drive no less than 35 mph around the curve ahead.`
+      },
+      {
+        id: 3,
+        text: `Curve ahead, speeds of 35 mph or slower are recommended.`
+      },
+      {
+        id: 4,
+        text: `Stay in the right-hand lane if not driving over 35 mph.`
+      }
+    ],
+    question: `This road sign means:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 38,
+    options: [
+      {
+        id: 1,
+        text: `Red, yellow, green.`
+      },
+      {
+        id: 2,
+        text: `Red, green, yellow.`
+      },
+      {
+        id: 3,
+        text: `Green, red, yellow.`
+      },
+      {
+        id: 4,
+        text: `Green, yellow, red.`
+      }
+    ],
+    question: `From top to bottom, the following is the proper order for traffic lights::`,
+    response: null,
+  },
+  {
+    answer: 2,
+    options: [
+      {
+        id: 1,
+        text: `Perception time.`
+      },
+      {
+        id: 2,
+        text: `Steering ability.`
+      },
+      {
+        id: 3,
+        text: `Braking distance.`
+      },
+      {
+        id: 4,
+        text: `Reaction distance.`
+      }
+    ],
+    question: `Which is not a factor in determining the distance that it takes to stop your vehicle?`,
     response: null,
   },
 ]

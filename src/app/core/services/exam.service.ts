@@ -9,6 +9,12 @@ export class ExamService {
   constructor() { }
 
   public getExam(size = 40) {
+    examQuestions.forEach((q: any) => {
+      const trueSize = new Set(q.options.map((opt: any) => opt.text)).size;
+      if (trueSize !== 4) {
+        console.log('Duplicate responses!', q);
+      }
+    })
     return this.randomize(examQuestions).slice(0, size);
   }
 

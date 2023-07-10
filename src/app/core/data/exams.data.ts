@@ -829,7 +829,7 @@ export const examQuestions = [
       },
       {
         id: 3,
-        text: `When a traffic officer orders you too stop.`
+        text: `When a traffic officer orders you to stop.`
       },
       {
         id: 4,
@@ -5301,7 +5301,7 @@ export const examQuestions = [
     options: [
       {
         id: 1,
-        text: `When one train passes, look for another train on th other track before proceeding.`
+        text: `When one train passes, look for another train on the other track before proceeding.`
       },
       {
         id: 2,

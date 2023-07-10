@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
+import { of } from 'rxjs';
 import { examQuestions } from '../data/exams.data';
+import { DatePipe } from '@angular/common';
 
 @Injectable({
   providedIn: 'root'
@@ -32,5 +34,15 @@ export class ExamService {
       questions[i] = t;
     }
     return questions;
+  }
+
+  public sendResults(correct: number, completed: number) {
+    const input = {
+      subject: 'Driver Test Results',
+      email: 'johnrose242@gmail.com',
+      body: `A user scored ${correct}/${completed} on ${new DatePipe('en-US').transform(new Date(), 'short')}`
+    };
+    window.open(`mailto:johnrose242@gmail.com?subject=${input.subject}&body=${input.body}`, '_blank');
+    return of(input);
   }
 }

@@ -89,9 +89,10 @@ export class ExamsComponent implements OnInit {
     if (this.completed === this.count) {
       const duration = ((performance.now() - this.startTime)/60000).toFixed(2);
       const split = duration.split('.');
-      this.snackBar.open(`You have finished.
+      const snackbarRef = this.snackBar.open(`You have finished.
       The test took ${split[0]} minutes and ${(Number(split[1]) * .6).toFixed(0)} seconds.
       Good Job!`, 'Dismiss', {
+        duration: 5000,
         verticalPosition: 'top'
       });
     }

@@ -25,6 +25,7 @@ export class FlashcardsComponent implements OnInit {
     const card = this.flashcards[index];
     const showAll = card.options.find((opt: any) => opt.id === card.answer).text === 'All of these.';
     this.flashcard = {
+      index,
       frontImage: card.imageId,
       frontText: card.question,
       backText: showAll

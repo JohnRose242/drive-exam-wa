@@ -1,4 +1,7 @@
 <div class="container">
+  <div>
+    {{flashcard.index + 1}} / {{flashcards.length}}
+  </div>
   <div class="flashcard" [class.flipped]="flipped" (click)="toggle()">
     <div class="front">
       <img *ngIf="flashcard.frontImage" src="{{ 'assets/images/' + flashcard.frontImage + '.png' }}">

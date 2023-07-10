@@ -6012,4 +6012,816 @@ export const examQuestions = [
     question: `Which is not a factor in determining the distance that it takes to stop your vehicle?`,
     response: null,
   },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `School zones.`
+      },
+      {
+        id: 2,
+        text: `Speed limits.`
+      },
+      {
+        id: 3,
+        text: `No passing zones.`
+      },
+      {
+        id: 4,
+        text: `Railroad crossings.`
+      }
+    ],
+    question: `Pentagonal signs indicate:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `It is against the law to go around lowered gates at a crossing.`
+      },
+      {
+        id: 3,
+        text: `You must stop at a railroad crossing when directed to do so by a flagger.`
+      },
+      {
+        id: 4,
+        text: `Not all railroad crossings are equipped with flashing red signals and gates.`
+      }
+    ],
+    question: `Which of the following statements about railroad crossings is true?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `To avoid conflict with other traffic.`
+      },
+      {
+        id: 2,
+        text: `Long enough to unload packages.`
+      },
+      {
+        id: 3,
+        text: `To discharge passengers.`
+      },
+      {
+        id: 4,
+        text: `For less than five minutes.`
+      }
+    ],
+    question: `A “No stopping” sign means that, unless directed to do so by a police officer, you may stop only:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 39,
+    options: [
+      {
+        id: 1,
+        text: `Divided highway ends.`
+      },
+      {
+        id: 2,
+        text: `Divided highway starts.`
+      },
+      {
+        id: 3,
+        text: `Curves ahead.`
+      },
+      {
+        id: 4,
+        text: `Bumps in the road.`
+      }
+    ],
+    question: `This road sign means:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Are slowing down or stopping.`
+      },
+      {
+        id: 2,
+        text: `Are changing lanes.`
+      },
+      {
+        id: 3,
+        text: `Have your emergency brake on.`
+      },
+      {
+        id: 4,
+        text: `Are making a turn.`
+      }
+    ],
+    question: `Your brake lights tell other drivers that you:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Check your mirrors and blind spots.`
+      },
+      {
+        id: 2,
+        text: `Honk your horn at least three times.`
+      },
+      {
+        id: 3,
+        text: `Re-enter your lane within 10 feet of the passed vehicle.`
+      },
+      {
+        id: 4,
+        text: `There is no need to signal.`
+      }
+    ],
+    question: `When passing other vehicles:`,
+    response: null,
+  },
+  {
+    answer: 3,
+    options: [
+      {
+        id: 1,
+        text: `Means that the traffic the arrow is pointing toward must stop.`
+      },
+      {
+        id: 2,
+        text: `Is never used as a traffic signal.`
+      },
+      {
+        id: 3,
+        text: `Has the same meaning as a circular red traffic light.`
+      },
+      {
+        id: 4,
+        text: `Means that drivers may turn in the direction indicated by the arrow.`
+      }
+    ],
+    question: `Traffic signals sometimes display arrows to control turns from specific lanes. A solid red arrow:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 40,
+    options: [
+      {
+        id: 1,
+        text: `Hospital ahead and to the right.`
+      },
+      {
+        id: 2,
+        text: `Highway changes ahead and to the right.`
+      },
+      {
+        id: 3,
+        text: `Hiking trails ahead and to the right.`
+      },
+      {
+        id: 4,
+        text: `Hotel ahead and to the right.`
+      }
+    ],
+    question: `This road sign means:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `You may safely turn in the direction of the arrow.`
+      },
+      {
+        id: 2,
+        text: `Stop, then proceed straight through the intersection.`
+      },
+      {
+        id: 3,
+        text: `Stop, even if turning in the direction of the green arrow.`
+      },
+      {
+        id: 4,
+        text: `All traffic must turn in the direction of the arrow.`
+      }
+    ],
+    question: `At an intersection, a signal showing a green arrow and a red light means:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 41,
+    options: [
+      {
+        id: 1,
+        text: `The left lane is reserved for vehicles with a specific number of occupants.`
+      },
+      {
+        id: 2,
+        text: `Specific turning movements are allowed from specific lanes.`
+      },
+      {
+        id: 3,
+        text: `Do not enter.`
+      },
+      {
+        id: 4,
+        text: `Drivers in both lanes are responsible for merging smoothly.`
+      }
+    ],
+    question: `This road sign means:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Pull off the right side of the road and let traffic pass.`
+      },
+      {
+        id: 2,
+        text: `Decrease your speed.`
+      },
+      {
+        id: 3,
+        text: `Not let the other cars pass your vehicle.`
+      },
+      {
+        id: 4,
+        text: `Use your four-way flashers.`
+      }
+    ],
+    question: `If you are driving so slowly that traffic is backing up behind you, you should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Alcohol.`
+      },
+      {
+        id: 3,
+        text: `Any medication.`
+      },
+      {
+        id: 4,
+        text: `A lack of sleep.`
+      }
+    ],
+    question: `A person's ability to drive can be impaired by:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 42,
+    options: [
+      {
+        id: 1,
+        text: `Slow down because the road ahead changes direction at an extreme angle.`
+      },
+      {
+        id: 2,
+        text: `The road to the right is for one-way traffic only.`
+      },
+      {
+        id: 3,
+        text: `That due to upcoming roadwork, there is a detour to the right..`
+      },
+      {
+        id: 4,
+        text: `There is a crossroad to your right.`
+      }
+    ],
+    question: `When you see this black and yellow sign, it means:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 43,
+    options: [
+      {
+        id: 1,
+        text: `Entrances from the wrong direction on one-way streets and expressway ramps.`
+      },
+      {
+        id: 2,
+        text: `Entrance to dead-end streets.`
+      },
+      {
+        id: 3,
+        text: `Entrance to road construction areas.`
+      },
+      {
+        id: 4,
+        text: `Entrance to road construction areas.`
+      }
+    ],
+    question: `This sign is used to prevent:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `No passing zone.`
+      },
+      {
+        id: 2,
+        text: `Wrong way.`
+      },
+      {
+        id: 3,
+        text: `Stop.`
+      },
+      {
+        id: 4,
+        text: `Railroad crossing.`
+      }
+    ],
+    question: `The sign with this shape and color is a ____ sign.`,
+    response: null,
+  },
+  {
+    answer: 4,
+    options: [
+      {
+        id: 1,
+        text: `Lanes are moving in the same direction and drivers are not permitted to pass.`
+      },
+      {
+        id: 2,
+        text: `Lanes are moving in the same direction and drivers are permitted to pass when it is safe to do so.`
+      },
+      {
+        id: 3,
+        text: `Lanes are moving in opposite directions and drivers are permitted to pass when it is safe to do so.`
+      },
+      {
+        id: 4,
+        text: `Lanes are moving in opposite directions and drivers are not permitted to pass.`
+      }
+    ],
+    question: `A double solid yellow line down the center of a two-lane road indicates:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `On an incline.`
+      },
+      {
+        id: 2,
+        text: `At an intersection.`
+      },
+      {
+        id: 3,
+        text: `At a stop sign.`
+      },
+      {
+        id: 4,
+        text: `At a toll plaza.`
+      }
+    ],
+    question: `Allow a larger space cushion than usual when stopping:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Wear your seat belt.`
+      },
+      {
+        id: 2,
+        text: `Limit your driving to weekdays.`
+      },
+      {
+        id: 3,
+        text: `Stay in the right lane on multilane highways.`
+      },
+      {
+        id: 4,
+        text: `Limit your driving to hours between 3:00 p.m. and 6:00 p.m.`
+      }
+    ],
+    question: `The most effective thing you can do to reduce your risk of being injured or killed in a traffic crash is to:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `A serious traffic safety problem.`
+      },
+      {
+        id: 2,
+        text: `A minor traffic safety problem.`
+      },
+      {
+        id: 3,
+        text: `Safe if you have only had a few drinks.`
+      },
+      {
+        id: 4,
+        text: `Only dangerous to the driver who drinks.`
+      }
+    ],
+    question: `Drinking alcohol and driving is:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `White.`
+      },
+      {
+        id: 2,
+        text: `Blue.`
+      },
+      {
+        id: 3,
+        text: `Green.`
+      },
+      {
+        id: 4,
+        text: `Orange.`
+      }
+    ],
+    question: `Regulatory signs are usually ____ and should always be obeyed.`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `The maximum speed limit.`
+      },
+      {
+        id: 3,
+        text: `A speed that is faster than is reasonable and prudent.`
+      },
+      {
+        id: 4,
+        text: `A speed that is safe for existing conditions.`
+      }
+    ],
+    question: `You must not drive your vehicle at a speed greater than:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Have the right-of-way when using sirens, horns, and/or flashing lights.`
+      },
+      {
+        id: 3,
+        text: `May use a loudspeaker to give instructions.`
+      },
+      {
+        id: 4,
+        text: `May follow each other.`
+      }
+    ],
+    question: `Emergency vehicles:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Early enough for others to know your plans.`
+      },
+      {
+        id: 2,
+        text: `Just before changing lanes.`
+      },
+      {
+        id: 3,
+        text: `At any time.`
+      },
+      {
+        id: 4,
+        text: `After changing lanes.`
+      }
+    ],
+    question: `Before passing another vehicle, you should signal::`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Hand signals.`
+      },
+      {
+        id: 2,
+        text: `Your horn.`
+      },
+      {
+        id: 3,
+        text: `Your headlights.`
+      },
+      {
+        id: 4,
+        text: `Your emergency flashers.`
+      }
+    ],
+    question: `If your turn signals fail, you should use ____ to indicate that you are turning.`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `On a hill or curve.`
+      },
+      {
+        id: 3,
+        text: `When school bus lights are flashing.`
+      },
+      {
+        id: 4,
+        text: `When approaching an intersection.`
+      }
+    ],
+    question: `Do not pass:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Under no circumstances.`
+      },
+      {
+        id: 2,
+        text: `As long as an approaching train is not too close.`
+      },
+      {
+        id: 3,
+        text: `If your vehicle can do so without damaging the gate.`
+      },
+      {
+        id: 4,
+        text: `If you first look carefully in both directions.`
+      }
+    ],
+    question: `You may drive around or under a gate that is being lowered or raised at a railroad crossing:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Allow a gap of about four seconds.`
+      },
+      {
+        id: 2,
+        text: `Wait until your travel lane is ending and then merge, even into a small gap.`
+      },
+      {
+        id: 3,
+        text: `Merge at any time, regardless of a gap.`
+      },
+      {
+        id: 4,
+        text: `Merge into a traffic lane only when other drivers have stopped their vehicles.`
+      }
+    ],
+    question: `Any time you want to merge with other traffic, you should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 45,
+    options: [
+      {
+        id: 1,
+        text: `Turn right.`
+      },
+      {
+        id: 2,
+        text: `Turn left.`
+      },
+      {
+        id: 3,
+        text: `Come to a stop.`
+      },
+      {
+        id: 4,
+        text: `Go straight ahead.`
+      }
+    ],
+    question: `The driver's left arm and hand are extended upward. This hand signal means that the driver plans to:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Yield to pedestrians.`
+      },
+      {
+        id: 2,
+        text: `Increase your normal driving speed.`
+      },
+      {
+        id: 3,
+        text: `Maintain your normal driving speed.`
+      },
+      {
+        id: 4,
+        text: `Stop and look for nearby police cars.`
+      }
+    ],
+    question: `When making a right turn on a green light, you must:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Continue to drive in a normal manner.`
+      },
+      {
+        id: 2,
+        text: `Stop as quickly as you can.`
+      },
+      {
+        id: 3,
+        text: `Speed up to get out of its way.`
+      },
+      {
+        id: 4,
+        text: `Slow down, move as far to the right as possible, and stop.`
+      }
+    ],
+    question: `On a two-lane street, your vehicle is being followed by a fire engine that is not using its emergency signals. You should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `May create a dangerous driving environment.`
+      },
+      {
+        id: 2,
+        text: `Should not let following cars pass.`
+      },
+      {
+        id: 3,
+        text: `Always has the right-of-way.`
+      },
+      {
+        id: 4,
+        text: `Is a very safe driver.`
+      }
+    ],
+    question: `A person who drives much slower than the speed limit:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 46,
+    options: [
+      {
+        id: 1,
+        text: `Low clearance.`
+      },
+      {
+        id: 2,
+        text: `Fines double in a work zone.`
+      },
+      {
+        id: 3,
+        text: `No left turn.`
+      },
+      {
+        id: 4,
+        text: `Do not block intersection.`
+      }
+    ],
+    question: `This road sign means:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `.02`
+      },
+      {
+        id: 2,
+        text: `.04`
+      },
+      {
+        id: 3,
+        text: `.06`
+      },
+      {
+        id: 4,
+        text: `.08`
+      }
+    ],
+    question: `The legal limit or the presumptive level of intoxication for drivers under the age of 21 is:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `364 days in jail and a $5,000 fine.`
+      },
+      {
+        id: 2,
+        text: `364 days in jail.`
+      },
+      {
+        id: 3,
+        text: `$5,000 fine.`
+      },
+      {
+        id: 4,
+        text: `2 years in jail.`
+      }
+    ],
+    question: `What is the maximum penalty for a DUI in Washington State?`,
+    response: null,
+  },
+  {
+    answer: 2,
+    options: [
+      {
+        id: 1,
+        text: `A minimum of 90 days.`
+      },
+      {
+        id: 2,
+        text: `All of these.`
+      },
+      {
+        id: 3,
+        text: `A maximum of 4 years.`
+      },
+      {
+        id: 4,
+        text: `It depends on prior offences and the severity of the incident.`
+      }
+    ],
+    question: `If you are convicted of a DUI in Washington State, your license may be suspended for:`,
+    response: null,
+  },
 ]

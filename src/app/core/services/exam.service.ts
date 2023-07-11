@@ -33,7 +33,9 @@ export class ExamService {
       questions[m] = questions[i];
       questions[i] = t;
     }
-    return questions;
+    return questions.sort((a: any, b: any) => {
+      return a.text === 'All of these.' ? 1 : -1;
+    });
   }
 
   public sendResults(correct: number, completed: number) {

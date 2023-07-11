@@ -6333,7 +6333,7 @@ export const examQuestions = [
       },
       {
         id: 4,
-        text: `Entrance to road construction areas.`
+        text: `Entrance to alleyways.`
       }
     ],
     question: `This sign is used to prevent:`,
@@ -6341,6 +6341,7 @@ export const examQuestions = [
   },
   {
     answer: 1,
+    imageId: 44,
     options: [
       {
         id: 1,
@@ -6822,6 +6823,1024 @@ export const examQuestions = [
       }
     ],
     question: `If you are convicted of a DUI in Washington State, your license may be suspended for:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Excessive speed.`
+      },
+      {
+        id: 2,
+        text: `Excessive stops.`
+      },
+      {
+        id: 3,
+        text: `Sudden stops.`
+      },
+      {
+        id: 4,
+        text: `Sudden turns`
+      }
+    ],
+    question: `Hydroplaning is usually caused by:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `If traffic is clear.`
+      },
+      {
+        id: 2,
+        text: `Only in an emergency.`
+      },
+      {
+        id: 3,
+        text: `If you are on an expressway.`
+      },
+      {
+        id: 4,
+        text: `Only at an intersection.`
+      }
+    ],
+    question: `When the road is marked with a solid yellow line and a broken yellow line, with the broken line next to your lane, you may pass:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 47,
+    options: [
+      {
+        id: 1,
+        text: `Sharp right turn in the road ahead.`
+      },
+      {
+        id: 2,
+        text: `One-way road.`
+      },
+      {
+        id: 3,
+        text: `No right turn.`
+      },
+      {
+        id: 4,
+        text: `Exit.`
+      }
+    ],
+    question: `This road sign means:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Blow your horn, steer right, and brake.`
+      },
+      {
+        id: 2,
+        text: `Blow your horn, steer right, and accelerate.`
+      },
+      {
+        id: 3,
+        text: `Blow your horn, steer left, and brake.`
+      },
+      {
+        id: 4,
+        text: `Stay in the center of your lane, blow your horn, and brake.`
+      }
+    ],
+    question: `If an oncoming driver is heading toward you in your lane, you should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `See a child who is about to run into the street.`
+      },
+      {
+        id: 2,
+        text: `Are traveling through an intersection.`
+      },
+      {
+        id: 3,
+        text: `Are passing a bicyclist.`
+      },
+      {
+        id: 4,
+        text: `Are parallel parking.`
+      }
+    ],
+    question: `You should honk your horn when you:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Signal, yield to existing traffic, and enter at the same speed that traffic is moving.`
+      },
+      {
+        id: 2,
+        text: `Signal and enter the freeway. Freeway traffic must yield.`
+      },
+      {
+        id: 3,
+        text: `Drive slowly so you can check traffic.`
+      },
+      {
+        id: 4,
+        text: `Always come to a complete stop first.`
+      }
+    ],
+    question: `To enter a freeway:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Give the vehicle extra space.`
+      },
+      {
+        id: 3,
+        text: `Know that the driver in the vehicle ahead is reducing their safety margin by being an inattentive driver.`
+      },
+      {
+        id: 4,
+        text: `Avoid following the driver's example.`
+      }
+    ],
+    question: `You notice that the driver in the vehicle ahead of you is driving with one hand and talking to a passenger. You should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Drive to the next intersection and make your turn then.`
+      },
+      {
+        id: 2,
+        text: `Quickly cut across traffic to make your turn.`
+      },
+      {
+        id: 3,
+        text: `Turn on your blinker and make the turn from your current lane.`
+      },
+      {
+        id: 4,
+        text: `Safely change lanes then put your vehicle in reverse to go back to the intersection.`
+      }
+    ],
+    question: `If you reach an intersection where you wish to turn but you are not in the proper lane, you should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `After coming to a complete stop and verifying that it is safe to proceed.`
+      },
+      {
+        id: 2,
+        text: `After slowing down to verify that there is no cross traffic.`
+      },
+      {
+        id: 3,
+        text: `After you have stopped at least 20 feet prior to the intersection.`
+      },
+      {
+        id: 4,
+        text: `After slowing down to a speed of 10 mph.`
+      }
+    ],
+    question: `When may you proceed through an intersection that has a stop sign but no stop line or crosswalk?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Be sure all of the vehicle's occupants have buckled their seat belts.`
+      },
+      {
+        id: 2,
+        text: `Be sure only backseat passengers have buckled their seat belts.`
+      },
+      {
+        id: 3,
+        text: `Be sure only adult passengers have buckled their seat belts.`
+      },
+      {
+        id: 4,
+        text: `Be sure only child passengers have buckled their seat belts.`
+      }
+    ],
+    question: `Before switching on the ignition, you should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Move over to the right, if there is an open lane to your right.`
+      },
+      {
+        id: 3,
+        text: `If there is not an open lane to your right, wait until the way is clear ahead and reduce your speed slowly to encourage the tailgater to drive around you.`
+      },
+      {
+        id: 4,
+        text: `Never slow down abruptly.`
+      }
+    ],
+    question: `When you are being tailgated:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Take your eyes off the road.`
+      },
+      {
+        id: 3,
+        text: `Take your hands off the wheel.`
+      },
+      {
+        id: 4,
+        text: `Take your attention away from the task of driving.`
+      }
+    ],
+    question: `Anything that requires you to ____ could cause you to crash.`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Slow down once moving onto the exit ramp.`
+      },
+      {
+        id: 2,
+        text: `Slow down before entering the exit ramp.`
+      },
+      {
+        id: 3,
+        text: `Keep your speed constant once in the exit ramp.`
+      },
+      {
+        id: 4,
+        text: `Pass slower traffic in the exit ramp.`
+      }
+    ],
+    question: `The correct way to use a freeway exit ramp is to:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 48,
+    options: [
+      {
+        id: 1,
+        text: `Upcoming hill.`
+      },
+      {
+        id: 2,
+        text: `Trucks only.`
+      },
+      {
+        id: 3,
+        text: `Trucks are entering the highway.`
+      },
+      {
+        id: 4,
+        text: `Trucks have the right-of-way.`
+      }
+    ],
+    question: `This sign means:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Do not speed when the roads are wet.`
+      },
+      {
+        id: 3,
+        text: `Use tires with proper air pressure.`
+      },
+      {
+        id: 4,
+        text: `Replace tires with bad tread.`
+      }
+    ],
+    question: `How can you lower the risk of hydroplaning?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Watch for children walking along the side of the road.`
+      },
+      {
+        id: 2,
+        text: `Do not proceed until the children wave to you.`
+      },
+      {
+        id: 3,
+        text: `Accelerate quickly.`
+      },
+      {
+        id: 4,
+        text: `Turn on your emergency flashers.`
+      }
+    ],
+    question: `After stopping for a school bus that is unloading children:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `The combination could multiply the effects of the alcohol or medicine.`
+      },
+      {
+        id: 2,
+        text: `The medicine reduces the effect of the alcohol.`
+      },
+      {
+        id: 3,
+        text: `The alcohol will help the medicine cure a cold..`
+      },
+      {
+        id: 4,
+        text: `There is no effect because they are different substances.`
+      }
+    ],
+    question: `What happens if you drink alcohol while taking prescription or over-the-counter medicine?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `The truck may be traveling at a speed slower than the posted speed limit.`
+      },
+      {
+        id: 3,
+        text: `You may not be able to safely pass the truck.`
+      },
+      {
+        id: 4,
+        text: `You may not be able to legally pass the truck.`
+      }
+    ],
+    question: `You are driving up a hill and are approaching a heavy truck from the rear. You should know that:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Green.`
+      },
+      {
+        id: 2,
+        text: `Yellow.`
+      },
+      {
+        id: 3,
+        text: `White.`
+      },
+      {
+        id: 4,
+        text: `Red.`
+      }
+    ],
+    question: `Guide signs are ____ signs that provide directional and mileage information to drivers.`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Don’t stop for any reason. Keep moving until you can safely pull off the road.`
+      },
+      {
+        id: 2,
+        text: `You may stop to drop off passengers.`
+      },
+      {
+        id: 3,
+        text: `You may stop to look up an address.`
+      },
+      {
+        id: 4,
+        text: `You may make a U-turn or back up if you get on the wrong entrance ramp of the freeway.`
+      }
+    ],
+    question: `When in a travel lane on the roadway:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `You are already within the intersection when the light changes to yellow.`
+      },
+      {
+        id: 2,
+        text: `There is an emergency vehicle crossing your lane.`
+      },
+      {
+        id: 3,
+        text: `There are pedestrians crossing.`
+      },
+      {
+        id: 4,
+        text: `You are turning right.`
+      }
+    ],
+    question: `You may continue carefully through an intersection with a yellow light if:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `The driver on the right has the right-of-way.`
+      },
+      {
+        id: 2,
+        text: `The driver on the left has the right-of-way.`
+      },
+      {
+        id: 3,
+        text: `One driver may continue driving without stopping.`
+      },
+      {
+        id: 4,
+        text: `One driver should honk to indicate that they are giving up the right-of-way.`
+      }
+    ],
+    question: `If two drivers arrive at the same time to a four-way intersection controlled by stop signs:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Do not make any sudden changes in speed or direction.`
+      },
+      {
+        id: 2,
+        text: `Always drive at the maximum speed limit.`
+      },
+      {
+        id: 3,
+        text: `Reduce your following distance.`
+      },
+      {
+        id: 4,
+        text: `.`
+      }
+    ],
+    question: `When driving on roads that may be slippery:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 49,
+    options: [
+      {
+        id: 1,
+        text: `The maximum safe speed for an expressway exit.`
+      },
+      {
+        id: 2,
+        text: `The maximum safe speed for a residential area.`
+      },
+      {
+        id: 3,
+        text: `The maximum safe speed for an expressway entrance.`
+      },
+      {
+        id: 4,
+        text: `The maximum safe speed for a work zone.`
+      }
+    ],
+    question: `This road sign indicates:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Turn on your headlights.`
+      },
+      {
+        id: 2,
+        text: `Drive using your four-way flashers.`
+      },
+      {
+        id: 3,
+        text: `Drive using your parking lights.`
+      },
+      {
+        id: 4,
+        text: `Not turn on any vehicle lights.`
+      }
+    ],
+    question: `At dusk or on overcast days, you should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Stop and rest every two hours.`
+      },
+      {
+        id: 2,
+        text: `Do arm exercises every hour.`
+      },
+      {
+        id: 3,
+        text: `Drive with one eye open at a time.`
+      },
+      {
+        id: 4,
+        text: `Change feet on the gas pedal.`
+      }
+    ],
+    question: `To help relieve fatigue on a long trip, it is a good idea to:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Work hard to steer, reduce your speed, drive to a safe area, and stop.`
+      },
+      {
+        id: 2,
+        text: `Honk your horn and turn off the ignition.`
+      },
+      {
+        id: 3,
+        text: `Turn on your hazard lights and brace yourself.`
+      },
+      {
+        id: 4,
+        text: `Slam on your brakes.`
+      }
+    ],
+    question: `You are driving when your power steering stops working. You should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 50,
+    options: [
+      {
+        id: 1,
+        text: `Keep to the right.`
+      },
+      {
+        id: 2,
+        text: `Divided highway ends.`
+      },
+      {
+        id: 3,
+        text: `One-way traffic ahead.`
+      },
+      {
+        id: 4,
+        text: `Two-way traffic ahead.`
+      }
+    ],
+    question: `This road sign means:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `You are able to clearly see the road ahead.`
+      },
+      {
+        id: 3,
+        text: `You can return to your lane before meeting oncoming traffic.`
+      },
+      {
+        id: 4,
+        text: `Your vehicle is capable of the speed necessary to pass.`
+      }
+    ],
+    question: `You cannot pass safely on a two-way, two-lane street unless:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Slowing down gradually.`
+      },
+      {
+        id: 2,
+        text: `Sitting in their driveways with their cars running.`
+      },
+      {
+        id: 3,
+        text: `Accelerating quickly.`
+      },
+      {
+        id: 4,
+        text: `Braking abruptly.`
+      }
+    ],
+    question: `What may help drivers conserve gasoline?`,
+    response: null,
+  },
+  {
+    answer: 2,
+    options: [
+      {
+        id: 1,
+        text: `Look both ways as you cross the intersection.`
+      },
+      {
+        id: 2,
+        text: `Slow down and be prepared to stop if necessary.`
+      },
+      {
+        id: 3,
+        text: `Slow down if an emergency vehicle is approaching.`
+      },
+      {
+        id: 4,
+        text: `Always come to a full stop at the intersection.`
+      }
+    ],
+    question: `A red and white triangular sign at an intersection means:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Move your vehicle off the traveled portion of the roadway, if possible.`
+      },
+      {
+        id: 2,
+        text: `Not move your vehicle under any circumstances.`
+      },
+      {
+        id: 3,
+        text: `Wait until the police arrive before moving your vehicle.`
+      },
+      {
+        id: 4,
+        text: `None of these.`
+      }
+    ],
+    question: `You are involved in an accident and your vehicle is blocking traffic. You should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Take a few minutes before driving to familiarize yourself with the operation and location of all the vehicle’s equipment.`
+      },
+      {
+        id: 2,
+        text: `Disregard any obvious defects to avoid embarrassing your friend.`
+      },
+      {
+        id: 3,
+        text: `Hide from your friend that you are unfamiliar with the vehicle.`
+      },
+      {
+        id: 4,
+        text: `Not put too much thought into it because all vehicles are the same.`
+      }
+    ],
+    question: `You are borrowing an unfamiliar vehicle from a friend. You should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Slow down and yield to the vehicle on your right.`
+      },
+      {
+        id: 2,
+        text: `Speed up and get through the intersection.`
+      },
+      {
+        id: 3,
+        text: `Drive into the intersection and make the other vehicle stop.`
+      },
+      {
+        id: 4,
+        text: `Honk your horn and drive through the intersection.`
+      }
+    ],
+    question: `An intersection has no traffic signs or signals. You arrive at the same time as a vehicle to your right. You should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 51,
+    options: [
+      {
+        id: 1,
+        text: `Must exit the freeway, if you stay in your current lane.`
+      },
+      {
+        id: 2,
+        text: `May stay in your lane and continue through the interchange.`
+      },
+      {
+        id: 3,
+        text: `May either continue through the interchange or exit the freeway from your current lane.`
+      },
+      {
+        id: 4,
+        text: `May not exit the freeway.`
+      }
+    ],
+    question: `If you see this sign above your lane, you:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Road conditions, weather conditions, and oncoming traffic.`
+      },
+      {
+        id: 2,
+        text: `Presence of a stop sign.`
+      },
+      {
+        id: 3,
+        text: `Use of your turn signals.`
+      },
+      {
+        id: 4,
+        text: `Cars behind you.`
+      }
+    ],
+    question: `The amount of space you need to cross traffic depends on the:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Stay in the car, as you are most likely to be found when you stay in your vehicle.`
+      },
+      {
+        id: 2,
+        text: `Walk into the road and get the attention of other drivers.`
+      },
+      {
+        id: 3,
+        text: `Lay down in your car and go to sleep.`
+      },
+      {
+        id: 4,
+        text: `Get out of the car and go for help.`
+      }
+    ],
+    question: `If you become stranded in a snowstorm, the best thing to do is to:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `To run out in front of you without looking.`
+      },
+      {
+        id: 2,
+        text: `To know when it is safe to cross the street.`
+      },
+      {
+        id: 3,
+        text: `To stop at the curb before crossing the street.`
+      },
+      {
+        id: 4,
+        text: `Not to cross the street unless they are with an adult.`
+      }
+    ],
+    question: `When you drive through an area where children are playing, you should expect them:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Human error.`
+      },
+      {
+        id: 2,
+        text: `New drivers.`
+      },
+      {
+        id: 3,
+        text: `Bad weather.`
+      },
+      {
+        id: 4,
+        text: `Bad roads.`
+      }
+    ],
+    question: `Which is the most common cause of traffic crashes?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `White arrows in the middle of the lanes.`
+      },
+      {
+        id: 2,
+        text: `White lines on the side of the road.`
+      },
+      {
+        id: 3,
+        text: `Flashing yellow lights.`
+      },
+      {
+        id: 4,
+        text: `Flashing red lights.`
+      }
+    ],
+    question: `Which of the following are used on some highways to direct drivers into the proper lanes for turning?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Read the labels on the drug before driving.`
+      },
+      {
+        id: 2,
+        text: `Drink alcohol instead.`
+      },
+      {
+        id: 3,
+        text: `Continue to drive regardless of any warning labels.`
+      },
+      {
+        id: 4,
+        text: `Drive only during daylight hours.`
+      }
+    ],
+    question: `A driver who is taking a non-prescription drug should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Take your foot off the accelerator, slow down, then ease back onto the road when it is safe to do so.`
+      },
+      {
+        id: 2,
+        text: `Stop quickly.`
+      },
+      {
+        id: 3,
+        text: `Immediately pull all the way off of the road and get back on when it is safe.`
+      },
+      {
+        id: 4,
+        text: `Accelerate and steer back on the road quickly.`
+      }
+    ],
+    question: `What should you do if your vehicle’s right wheels leave the pavement?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Upcoming railroad crossings.`
+      },
+      {
+        id: 2,
+        text: `Hospitals.`
+      },
+      {
+        id: 3,
+        text: `No passing zones.`
+      },
+      {
+        id: 4,
+        text: `School zones.`
+      }
+    ],
+    question: `Round signs indicate:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 52,
+    options: [
+      {
+        id: 1,
+        text: `Low ground railroad crossing.`
+      },
+      {
+        id: 2,
+        text: `No passing zone.`
+      },
+      {
+        id: 3,
+        text: `Winding road.`
+      },
+      {
+        id: 4,
+        text: `Pedestrian crossing.`
+      }
+    ],
+    question: `This road sign means:`,
     response: null,
   },
 ]

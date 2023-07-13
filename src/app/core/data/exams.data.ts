@@ -7843,4 +7843,719 @@ export const examQuestions = [
     question: `This road sign means:`,
     response: null,
   },
+  {
+    answer: 1,
+    imageId: 53,
+    options: [
+      {
+        id: 1,
+        text: `No U-turn.`
+      },
+      {
+        id: 2,
+        text: `Two-way left turn.`
+      },
+      {
+        id: 3,
+        text: `Minimum speed limit.`
+      },
+      {
+        id: 4,
+        text: `No parking.`
+      }
+    ],
+    question: `This road sign means:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Side of the road facing oncoming traffic.`
+      },
+      {
+        id: 2,
+        text: `Side of the road which has the lightest traffic.`
+      },
+      {
+        id: 3,
+        text: `Side of the road which has the heaviest traffic..`
+      },
+      {
+        id: 4,
+        text: `Same side of the road on which traffic is moving.`
+      }
+    ],
+    question: `On a road which has no sidewalks, a pedestrian should walk on the:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Should take the time to focus on driving before starting the engine.`
+      },
+      {
+        id: 2,
+        text: `Will drive no differently than they would if they were thinking more clearly.`
+      },
+      {
+        id: 3,
+        text: `Can drive faster because they are more in touch with their senses.`
+      },
+      {
+        id: 4,
+        text: `Should call a friend to vent while driving.`
+      }
+    ],
+    question: `If worried, nervous, angry, or crying, a driver:`,
+    response: null,
+  },{
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Can make turning more difficult.`
+      },
+      {
+        id: 3,
+        text: `Are likely to hydroplane.`
+      },
+      {
+        id: 4,
+        text: `Can increase your stopping distance.`
+      }
+    ],
+    question: `Worn or bald tires:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Staring at the roadway for long periods of time.`
+      },
+      {
+        id: 2,
+        text: `Frequent rest stops.`
+      },
+      {
+        id: 3,
+        text: `Too much sleep the night before your trip.`
+      },
+      {
+        id: 4,
+        text: `Short trips on expressways.`
+      }
+    ],
+    question: `"Highway hypnosis” is a driving condition that can result from:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Require longer distances to stop than smaller vehicles do.`
+      },
+      {
+        id: 2,
+        text: `Require less time to pass on a downgrade than smaller vehicles do.`
+      },
+      {
+        id: 3,
+        text: `Require a smaller turning radius than smaller vehicles do.`
+      },
+      {
+        id: 4,
+        text: `Require less time to pass on an incline than smaller vehicles do.`
+      }
+    ],
+    question: `When sharing the road with a truck, it is important to remember that trucks generally:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `You should never place an infant or small child in the front seat of a vehicle with airbags.`
+      },
+      {
+        id: 3,
+        text: `An airbag can be dangerous to an infant or small child, even in a low-speed collision.`
+      },
+      {
+        id: 4,
+        text: `You should always make sure all your passengers are using a seat belt or child restraint.`
+      }
+    ],
+    question: `Which of the following is true regarding seat belts and child restraints in vehicles?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Less than ideal conditions are present for driving.`
+      },
+      {
+        id: 2,
+        text: `It is summer.`
+      },
+      {
+        id: 3,
+        text: `You must immediately stop and back up.`
+      },
+      {
+        id: 4,
+        text: `You should drive faster to get out of the work zone.`
+      }
+    ],
+    question: `Work zone signs mean:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 54,
+    options: [
+      {
+        id: 1,
+        text: `The road is curving sharply to the left.`
+      },
+      {
+        id: 2,
+        text: `There is an object on the roadway.`
+      },
+      {
+        id: 3,
+        text: `There is a merge point ahead.`
+      },
+      {
+        id: 4,
+        text: `Traffic is coming from the right.`
+      }
+    ],
+    question: `This road sign means:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Should stop where they have a clear view of approaching traffic before they enter the intersecting roadway.`
+      },
+      {
+        id: 2,
+        text: `Should stop only at a place where they can see at least 200 feet on either side, even if they have to enter the intersecting roadway.`
+      },
+      {
+        id: 3,
+        text: `Is required to slow down to make sure crossing traffic is clear.`
+      },
+      {
+        id: 4,
+        text: `Is not required to stop.`
+      }
+    ],
+    question: `When a stop is required at an intersection and no markings appear to indicate a stop line or crosswalk, a driver:`,
+    response: null,
+  },
+  {
+    answer: 2,
+    options: [
+      {
+        id: 1,
+        text: `Watch for oncoming traffic.`
+      },
+      {
+        id: 2,
+        text: `Be sure the passing lane is clear.`
+      },
+      {
+        id: 3,
+        text: `Pass only on the right.`
+      },
+      {
+        id: 4,
+        text: `There is no need to signal.`
+      }
+    ],
+    question: `When passing on a multi-lane highway:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Check for oncoming traffic and adjust your speed to allow safe passing.`
+      },
+      {
+        id: 2,
+        text: `Pull off the road.`
+      },
+      {
+        id: 3,
+        text: `Signal to the other driver when it is safe for them to pass.`
+      },
+      {
+        id: 4,
+        text: `Speed up.`
+      }
+    ],
+    question: `Another driver is trying to pass your car. You should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 55,
+    options: [
+      {
+        id: 1,
+        text: `Flagger ahead.`
+      },
+      {
+        id: 2,
+        text: `School crossing ahead.`
+      },
+      {
+        id: 3,
+        text: `End of construction zone.`
+      },
+      {
+        id: 4,
+        text: `Pedestrians ahead.`
+      }
+    ],
+    question: `This road sign means:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `At intersections and pedestrian crosswalks.`
+      },
+      {
+        id: 2,
+        text: `In curves and on hills..`
+      },
+      {
+        id: 3,
+        text: `Next to churches and schools.`
+      },
+      {
+        id: 4,
+        text: `On freeway on-ramps.`
+      }
+    ],
+    question: `Stop lines are solid white lines painted across traffic lanes:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Stay out of the intersection until you can pass through.`
+      },
+      {
+        id: 2,
+        text: `Go slowly until the traffic ahead moves.`
+      },
+      {
+        id: 3,
+        text: `Get as close as possible to the car in front of you.`
+      },
+      {
+        id: 4,
+        text: `Sound your horn to make the cars move up.`
+      }
+    ],
+    question: `You come to an intersection that is blocked by other traffic. You should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Allow the motorcycle to use a complete lane.`
+      },
+      {
+        id: 2,
+        text: `Drive on the shoulder beside the motorcycle.`
+      },
+      {
+        id: 3,
+        text: `Allow the motorcycle to use only half of a lane.`
+      },
+      {
+        id: 4,
+        text: `Pass using the same lane as the motorcycle.`
+      }
+    ],
+    question: `If you are driving near a motorcycle, you must:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `May still turn, but you must yield to oncoming traffic.`
+      },
+      {
+        id: 2,
+        text: `May no longer turn and must proceed straight.`
+      },
+      {
+        id: 3,
+        text: `Still have the right-of-way to turn.`
+      },
+      {
+        id: 4,
+        text: `No longer have to turn in the direction that the arrow indicated.`
+      }
+    ],
+    question: `If a green arrow turns into a solid green light, you:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `They are weaving between lanes.`
+      },
+      {
+        id: 3,
+        text: `They are driving more slowly than the normal traffic flow.`
+      },
+      {
+        id: 4,
+        text: `They are making quick and sudden stops.`
+      }
+    ],
+    question: `A telltale sign of a drunk driver is:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `On a crosswalk or in a marked bicycle lane.`
+      },
+      {
+        id: 2,
+        text: `On a hill.`
+      },
+      {
+        id: 3,
+        text: `In a parking lot.`
+      },
+      {
+        id: 4,
+        text: `Within 12 inches of the right side of the road.`
+      }
+    ],
+    question: `You may not park:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Continually scan the entire road and all roadsides.`
+      },
+      {
+        id: 2,
+        text: `Stare straight ahead at all times.`
+      },
+      {
+        id: 3,
+        text: `Drive with your left foot resting lightly on the brake pedal.`
+      },
+      {
+        id: 4,
+        text: `Maintain focus toward the middle of the road.`
+      }
+    ],
+    question: `To prepare for anything coming up on the road ahead, you should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Regulatory signs.`
+      },
+      {
+        id: 2,
+        text: `Information signs.`
+      },
+      {
+        id: 3,
+        text: `Guide signs.`
+      },
+      {
+        id: 4,
+        text: `Warning signs.`
+      }
+    ],
+    question: `Certain highway signs require drivers to obey an indicated instruction. Such signs are known as:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `White.`
+      },
+      {
+        id: 2,
+        text: `Yellow.`
+      },
+      {
+        id: 3,
+        text: `Red.`
+      },
+      {
+        id: 4,
+        text: `Black.`
+      }
+    ],
+    question: `Lanes of traffic moving in the same direction are divided by ____ lines.`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Railroad crossings.`
+      },
+      {
+        id: 2,
+        text: `School zones.`
+      },
+      {
+        id: 3,
+        text: `No passing zones.`
+      },
+      {
+        id: 4,
+        text: `Hospitals.`
+      }
+    ],
+    question: `Crossbuck signs indicate:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `100 feet.`
+      },
+      {
+        id: 2,
+        text: `50 feet.`
+      },
+      {
+        id: 3,
+        text: `75 feet.`
+      },
+      {
+        id: 4,
+        text: `25 feet.`
+      }
+    ],
+    question: `Before you change directions, you must keep your turn signals on for at least:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Slow down and yield to any vehicle already in the intersection and to the drivers who arrived before you.`
+      },
+      {
+        id: 2,
+        text: `Take the right-of-way cautiously.`
+      },
+      {
+        id: 3,
+        text: `Wait for other drivers to signal for you to go.`
+      },
+      {
+        id: 4,
+        text: `Speed up and clear the intersection quickly.`
+      }
+    ],
+    question: `At an uncontrolled intersection, you must:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Steady red.`
+      },
+      {
+        id: 2,
+        text: `Flashing yellow.`
+      },
+      {
+        id: 3,
+        text: `Steady green.`
+      },
+      {
+        id: 4,
+        text: `Flashing red.`
+      }
+    ],
+    question: `A steady yellow traffic signal means that a ____ light will soon appear.`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Drivers in the proper lane must make the movement indicated by the arrow while following directions indicated by traffic signals.`
+      },
+      {
+        id: 2,
+        text: `Drivers in the proper lane must always come to a complete stop before making the movement indicated by the arrow.`
+      },
+      {
+        id: 3,
+        text: `Drivers in the proper lane must make the movement indicated by the arrow, but only if traffic lights are not working.`
+      },
+      {
+        id: 4,
+        text: `Drivers in the proper lane may make the movement indicated by the arrow, if they choose to do so.`
+      }
+    ],
+    question: `An arrow painted on the pavement means:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `On narrow or winding roads.`
+      },
+      {
+        id: 3,
+        text: `At intersections or railroad crossings.`
+      },
+      {
+        id: 4,
+        text: `When the road is wet or slippery.`
+      }
+    ],
+    question: `It is important to slow down::`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Slow down. If possible, change lanes so you will not drive next to the stopped emergency vehicle.`
+      },
+      {
+        id: 2,
+        text: `Drive to the right side of the road and stop.`
+      },
+      {
+        id: 3,
+        text: `Stay in your lane and continue to drive at the same speed.`
+      },
+      {
+        id: 4,
+        text: `Accelerate to quickly pass the stopped vehicle.`
+      }
+    ],
+    question: `You approach an emergency vehicle that is stopped with its lights flashing. You must:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Signal at least 100 feet before changing lanes to pass and ensure there is no oncoming traffic.`
+      },
+      {
+        id: 3,
+        text: `Use your mirrors and look over your left shoulder to check your blind spot when passing to the left.`
+      },
+      {
+        id: 4,
+        text: `When passing, wait until you can see both headlights of the passed car in your rearview mirror before returning to your original lane.`
+      }
+    ],
+    question: `Which of the following statements is true?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Take your foot off the gas pedal.`
+      },
+      {
+        id: 2,
+        text: `Firmly apply your brakes.`
+      },
+      {
+        id: 3,
+        text: `Apply your parking brake.`
+      },
+      {
+        id: 4,
+        text: `Pump your brakes.`
+      }
+    ],
+    question: `If you need to slow down while driving on a slippery road, the first thing you should do is:`,
+    response: null,
+  },
 ]

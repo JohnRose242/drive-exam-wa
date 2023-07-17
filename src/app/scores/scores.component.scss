@@ -1,0 +1,17 @@
+:host {
+  table {
+    border-bottom: 1px solid black;
+  }
+
+  .no-records {
+    td {
+      padding: 1rem !important;
+    }
+  }
+
+  .actions {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: end;
+  }
+}

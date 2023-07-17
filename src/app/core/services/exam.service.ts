@@ -20,6 +20,26 @@ export class ExamService {
     return this.randomize(examQuestions).slice(0, size);
   }
 
+  public getScores() {
+    const scores = localStorage.getItem('driver-exam-scores');
+    return scores ? JSON.parse(scores) : [];
+  }
+
+  public postScore(scoreObj: any) {
+    const scores = localStorage.getItem('driver-exam-scores');
+    if (scores) {
+      const scoresArray = JSON.parse(scores);
+      scoresArray.unshift(scoreObj)
+      localStorage.setItem('driver-exam-scores', JSON.stringify(scoresArray));
+    } else {
+      localStorage.setItem('driver-exam-scores', JSON.stringify([scoreObj]));
+    }
+  }
+
+  public resetScores() {
+    localStorage.removeItem('driver-exam-scores');
+  }
+
   public randomize(questions: any) {
     let m = questions.length, t, i;
 

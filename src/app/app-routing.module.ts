@@ -35,6 +35,14 @@ const routes: Routes = [
       )
   },
   {
+    path: 'scores',
+    canActivate: [LoggedInGuard],
+    loadChildren: () =>
+      import('./scores/scores.module').then(
+        (mod) => mod.ScoresModule
+      )
+  },
+  {
     path: '**',
     redirectTo: 'login'
   }

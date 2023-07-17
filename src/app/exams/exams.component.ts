@@ -87,10 +87,21 @@ export class ExamsComponent implements OnInit {
   public disableControl(control: any) {
     control.disable();
     if (this.completed === this.count) {
-      const duration = ((performance.now() - this.startTime)/60000).toFixed(2);
-      const split = duration.split('.');
+      const time = ((performance.now() - this.startTime)/60000).toFixed(2);
+      const split = time.split('.');
+      const duration = `${split[0]} minutes and ${(Number(split[1]) * .6).toFixed(0)} seconds`
+      const minutes = Number(split[0]);
+      const seconds = Number(split[1]) * 0.6;
+      const scoreObj = {
+        date: new Date(),
+        duration,
+        correct: this.correct,
+        completed: this.completed,
+        percent: this.percent
+      };
+      this.examService.postScore(scoreObj);
       const snackbarRef = this.snackBar.open(`You have finished.
-      The test took ${split[0]} minutes and ${(Number(split[1]) * .6).toFixed(0)} seconds.
+      The test took ${duration}.
       Good Job!`, 'Dismiss', {
         duration: 2500,
         verticalPosition: 'top'

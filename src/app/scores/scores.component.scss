@@ -14,4 +14,10 @@
     display: flex;
     justify-content: end;
   }
+
+  @media (max-width: 576px) {
+    .optional {
+      display: none;
+    }
+  }
 }

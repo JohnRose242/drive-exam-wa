@@ -92,7 +92,7 @@ export class ExamsComponent implements OnInit {
       const snackbarRef = this.snackBar.open(`You have finished.
       The test took ${split[0]} minutes and ${(Number(split[1]) * .6).toFixed(0)} seconds.
       Good Job!`, 'Dismiss', {
-        duration: 5000,
+        duration: 2500,
         verticalPosition: 'top'
       });
     }

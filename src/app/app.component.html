@@ -1,7 +1,12 @@
 <mat-toolbar>
   <span color="primary">WA Driver's Exam</span>
-  <button mat-icon-button routerLink="/home">
-    <mat-icon>home</mat-icon>
-  </button>
+  <div *ngIf="isLoggedIn$() | async">
+    <button mat-icon-button (click)="logout()">
+      <mat-icon>key_off</mat-icon>
+    </button>
+    <button mat-icon-button routerLink="/home">
+      <mat-icon>home</mat-icon>
+    </button>
+  </div>
 </mat-toolbar>
 <router-outlet></router-outlet>

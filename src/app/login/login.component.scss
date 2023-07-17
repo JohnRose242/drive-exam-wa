@@ -1,0 +1,45 @@
+:host {
+  height: calc(100% - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #869B5B;
+
+  @media screen and (min-width: 400px) {
+    .login-card {
+      width: 80%;
+      height: auto;
+    }
+  }
+
+  @media screen and (min-width: 700px) {
+    .login-card {
+      width: 60%;
+      height: auto;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .login-card {
+      width: 40%;
+      height: auto;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    margin: 1rem 0;
+  }
+  .error {
+    color: red;
+    display: flex;
+    justify-content: center;
+  }
+  .actions {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -36,8 +36,10 @@
                 [class.incorrect]="question.value.response && question.value.response !== question.value.answer">
         <mat-card-header>
           <mat-card-title>
+            <div>
+              <img *ngIf="question.value.imageId" src="{{ 'assets/images/' + question.value.imageId + '.png' }}">
+            </div>
             <span>{{ i + 1 }}) </span>
-            <img *ngIf="question.value.imageId" src="{{ 'assets/images/' + question.value.imageId + '.png' }}">
             <span> {{ question.value.text }}</span>
           </mat-card-title>
         </mat-card-header>

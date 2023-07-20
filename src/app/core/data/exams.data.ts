@@ -5799,7 +5799,7 @@ export const examQuestions = [
         text: `At or above 0.01 percent.`
       }
     ],
-    question: `In Washington State, an adult above the age of 21 is legally drunk when their blood alcohol content (BAC) is::`,
+    question: `In Washington State, an adult above the age of 21 is legally drunk when their blood alcohol content (BAC) is:`,
     response: null,
   },
   {
@@ -5986,7 +5986,7 @@ export const examQuestions = [
         text: `Green, yellow, red.`
       }
     ],
-    question: `From top to bottom, the following is the proper order for traffic lights::`,
+    question: `From top to bottom, the following is the proper order for traffic lights:`,
     response: null,
   },
   {
@@ -6544,7 +6544,7 @@ export const examQuestions = [
         text: `After changing lanes.`
       }
     ],
-    question: `Before passing another vehicle, you should signal::`,
+    question: `Before passing another vehicle, you should signal:`,
     response: null,
   },
   {
@@ -8486,7 +8486,7 @@ export const examQuestions = [
         text: `When the road is wet or slippery.`
       }
     ],
-    question: `It is important to slow down::`,
+    question: `It is important to slow down:`,
     response: null,
   },
   {
@@ -8556,6 +8556,355 @@ export const examQuestions = [
       }
     ],
     question: `If you need to slow down while driving on a slippery road, the first thing you should do is:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 56,
+    options: [
+      {
+        id: 1,
+        text: `Deer Crossing.`
+      },
+      {
+        id: 2,
+        text: `Animal viewing area ahead.`
+      },
+      {
+        id: 3,
+        text: `Do not feed the animals.`
+      },
+      {
+        id: 4,
+        text: `None of these.`
+      }
+    ],
+    question: `What does this sign mean:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 57,
+    options: [
+      {
+        id: 1,
+        text: `Flagger ahead.`
+      },
+      {
+        id: 2,
+        text: `Crossing guard ahead.`
+      },
+      {
+        id: 3,
+        text: `Detour ahead and to the left.`
+      },
+      {
+        id: 4,
+        text: `School crossing.`
+      }
+    ],
+    question: `What does this sign mean:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    imageId: 58,
+    options: [
+      {
+        id: 1,
+        text: `Yield ahead.`
+      },
+      {
+        id: 2,
+        text: `Yield now.`
+      },
+      {
+        id: 3,
+        text: `Stop sign ahead.`
+      },
+      {
+        id: 4,
+        text: `Traffic signal ahead.`
+      }
+    ],
+    question: `What does this sign mean:`,
+    response: null,
+  },
+  {
+    answer: 3,
+    imageId: 59,
+    options: [
+      {
+        id: 1,
+        text: `Yield ahead.`
+      },
+      {
+        id: 2,
+        text: `Yield now.`
+      },
+      {
+        id: 3,
+        text: `Stop sign ahead.`
+      },
+      {
+        id: 4,
+        text: `Traffic signal ahead.`
+      }
+    ],
+    question: `What does this sign mean:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Registering to vote in Washington.`
+      },
+      {
+        id: 3,
+        text: `Paying in-state tuition fees as a student in Washington.`
+      },
+      {
+        id: 4,
+        text: `Residing in Washington for more than 6 months in the calendar year.`
+      }
+    ],
+    question: `Which of these help establish residency in Washington state?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `30 days.`
+      },
+      {
+        id: 2,
+        text: `15 days.`
+      },
+      {
+        id: 3,
+        text: `60 days.`
+      },
+      {
+        id: 4,
+        text: `90 days.`
+      }
+    ],
+    question: `New residents to Washington must transfer their existing driver's license within:`,
+    response: null,
+  },
+  {
+    answer: 2,
+    options: [
+      {
+        id: 1,
+        text: `Has at least 2 years of licensed driving experience and is sitting in the right-front passenger seat.`
+      },
+      {
+        id: 2,
+        text: `Has at least 5 years of licensed driving experience and is sitting in the right-front passenger seat.`
+      },
+      {
+        id: 3,
+        text: `Has at least 5 years of licensed driving experience and is sitting anywhere in the car.`
+      },
+      {
+        id: 4,
+        text: `Is a good driver.`
+      }
+    ],
+    question: `To operate a motor vehicle with an instruction permit, you must be supervised by someone who:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `An Intermediate Driver License.`
+      },
+      {
+        id: 2,
+        text: `A Standard Driver License.`
+      },
+      {
+        id: 3,
+        text: `A Commercial Driver License.`
+      },
+      {
+        id: 4,
+        text: `Nothing, you must wait until you are at least 18 years old.`
+      }
+    ],
+    question: `If you are 16 or 17 and meet the requirements, you will be issued:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Be at least 15-1/2 years old (or 15 years old if enrolled in an approved driver-training course);.`
+      },
+      {
+        id: 3,
+        text: `Pass the knowledge test (unless enrolled in an approved driver-training course).`
+      },
+      {
+        id: 4,
+        text: `Complete the vision and medical screenings.`
+      }
+    ],
+    question: `To be issued an instruction permit, you must:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `You cannot drive between 1AM and 5AM. unless you are with a parent, a guardian, or a licensed driver who is at least 25 years old.`
+      },
+      {
+        id: 3,
+        text: `For the first six months, no passenger under the age of 20 may be with you while you drive unless that person is a member of your immediate family.`
+      },
+      {
+        id: 4,
+        text: `May not use a cell phone or other wireless communication device while operating a motor vehicle unless using the device to report illegal activity, summon medical or other emergency help, or prevent injury to a person or property.`
+      }
+    ],
+    question: `Which of these are a restriction under the Intermediate Driver License?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `On your 18th birthday.`
+      },
+      {
+        id: 2,
+        text: `On your 17th birthday.`
+      },
+      {
+        id: 3,
+        text: `When you successfully complete a driver training course.`
+      },
+      {
+        id: 4,
+        text: `On your 21st birthday.`
+      }
+    ],
+    question: `When will an Intermediate License automatically become a Standard Driver License?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Show correct arm and hand signals .`
+      },
+      {
+        id: 3,
+        text: `Obey all rules of the road.`
+      },
+      {
+        id: 4,
+        text: `Demonstrate safe driving habits throughout the test.`
+      }
+    ],
+    question: `During the Driving Test, you will be required to demonstrate:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Driving or being in physical control of a vehicle while you are under the influence of alcohol or drugs.`
+      },
+      {
+        id: 3,
+        text: `Refusing to allow a police officer to test you for alcohol..`
+      },
+      {
+        id: 4,
+        text: `Leaving a gas station without paying for fuel you have pumped.`
+      }
+    ],
+    question: `Which of these events might lead you to lose your Washington Driver License?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `The result of failing to appear for, comply with, respond to, or pay a traffic infraction or criminal citation for a moving traffic offense.`
+      },
+      {
+        id: 2,
+        text: `A notice you are mailed if you fail to attend your driver license exam appointment.`
+      },
+      {
+        id: 3,
+        text: `A warning given to you by a police officer for failing to obey the traffic laws.`
+      },
+      {
+        id: 4,
+        text: `None of these.`
+      }
+    ],
+    question: `What is a Failure to Appear (FTA) Notice?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `It will be required for domestic air travel in the future.`
+      },
+      {
+        id: 3,
+        text: `It can serve as ID for access to federal facilities that require ID.`
+      },
+      {
+        id: 4,
+        text: `It can be used for international border crossing by land or sea.`
+      }
+    ],
+    question: `What are the benefits of an Enhanced Driver License (EDL)?`,
     response: null,
   },
 ]

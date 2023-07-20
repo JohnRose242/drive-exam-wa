@@ -81,4 +81,17 @@
       display: none;
     }
   }
+
+  .mat-mdc-card-header {
+    width: 100%;
+  }
+
+  .image-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    img {
+      max-width: 100%;
+    }
+  }
 }

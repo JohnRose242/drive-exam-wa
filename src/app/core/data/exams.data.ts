@@ -9068,4 +9068,257 @@ export const examQuestions = [
     question: `Child safety restraints include:`,
     response: null,
   },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `On the rear plate.`
+      },
+      {
+        id: 2,
+        text: `On the front plate.`
+      },
+      {
+        id: 3,
+        text: `On both the front and rear plates.`
+      },
+      {
+        id: 4,
+        text: `In your vehicle's glove box.`
+      }
+    ],
+    question: `In Washington state, where are vehicle licensing month and year tage to be placed?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Try the headlight switch a few times.`
+      },
+      {
+        id: 3,
+        text: `Pull off the road as soon as possible.`
+      },
+      {
+        id: 4,
+        text: `If your lights won't come back on, put on the emergency flashers, turn signals, or fog lights, if you have them.`
+      }
+    ],
+    question: `If your headlights go out while driving, you should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Try to turn the vehicle to avoid a head-on collision.`
+      },
+      {
+        id: 2,
+        text: `Hold the steering wheel tightly.`
+      },
+      {
+        id: 3,
+        text: `Press yourself against the back of your seat.`
+      },
+      {
+        id: 4,
+        text: `Remove your hands from the steering wheel.`
+      }
+    ],
+    question: `If there is no way to avoid a collision and your car is going to be hit from the fron, you should:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Call the Emergency Notification System (ENS) number and report the issue to the USDOT.`
+      },
+      {
+        id: 2,
+        text: `Attempt to fix the issue yourself.`
+      },
+      {
+        id: 3,
+        text: `Wait on the train tracks with your emergency flashers on to warn other drivers and approaching trains.`
+      },
+      {
+        id: 4,
+        text: `Use your car to block access to the train tracks.`
+      }
+    ],
+    question: `If you notice any problems with a train crossing, tracks, or train travel, you could:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Side vision.`
+      },
+      {
+        id: 3,
+        text: `Judging distances and speeds.`
+      },
+      {
+        id: 4,
+        text: `Night vision.`
+      }
+    ],
+    question: `Which of these is an important aspect of vision when driving?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Wear dark glasses or tinted contact lenses at night.`
+      },
+      {
+        id: 2,
+        text: `Try to keep an extra pair of glasses in your vehicle.`
+      },
+      {
+        id: 3,
+        text: `Always wear them when you drive.`
+      },
+      {
+        id: 4,
+        text: `Have your vision checked every year or two by a vision specialist and keep your prescription up to date.`
+      }
+    ],
+    question: `If you are required to wear glasses to drive, you should remember to do all of these except:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `A search warrant.`
+      },
+      {
+        id: 3,
+        text: `A valid waiver of the warrant requirement when exigent circumstances exist.`
+      },
+      {
+        id: 4,
+        text: `Under any authority of law.`
+      }
+    ],
+    question: `In Wasgington, a law enforcement officer may obtain a person’s blood to test for alcohol, marijuana, or any drug, pursuant to:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Drive vehicles equipped with an ignition interlock device while his/her driving privilege is suspended or revoked for a drug or alcohol- related offense.`
+      },
+      {
+        id: 2,
+        text: `Drive while under the influence of alcohol.`
+      },
+      {
+        id: 3,
+        text: `None of these.`
+      },
+      {
+        id: 4,
+        text: `Drive at slower speeds than surrounding traffic to ensure they are driving safe.`
+      }
+    ],
+    question: `An Ignition Interlock License (IIL) allows the driver to:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Work.`
+      },
+      {
+        id: 2,
+        text: `Hang out with friends.`
+      },
+      {
+        id: 3,
+        text: `Out of state.`
+      },
+      {
+        id: 4,
+        text: `Commercial vehicles.`
+      }
+    ],
+    question: `An Occupational/Restricted Driver License (ORL) can be issued to allow you to drive to:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `You can only use the deferred prosecution program once in your lifetime.`
+      },
+      {
+        id: 3,
+        text: `When you have completed your treatment and have met all court ordered requirements, the DUI charges are dismissed.`
+      },
+      {
+        id: 4,
+        text: `Your DUI conviction is postponed while you complete an approved alcohol/drug or mental health program.`
+      }
+    ],
+    question: `If you are charged with a DUI, you may be eligible for Deferred Prosecution. Which of these applies to that program?`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Revoked for one year or until age 17, whichever is longer for a first offense.`
+      },
+      {
+        id: 3,
+        text: `Revoked for two years, or until age 18, whichever is longer for a second offence.`
+      },
+      {
+        id: 4,
+        text: `Not able to obtain a license/ instruction permit or take driver education during any revocation period.`
+      }
+    ],
+    question: `If you are age 13 through 17 and convicted of a first alcohol or firearm violation, or age 13 through 20 and convicted of a first drug violation, your driving privilege will be:`,
+    response: null,
+  },
 ]

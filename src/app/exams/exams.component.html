@@ -39,8 +39,11 @@
             <div class="image-wrapper">
               <img *ngIf="question.value.imageId" src="{{ 'assets/images/' + question.value.imageId + '.png' }}">
             </div>
-            <span>{{ i + 1 }}) </span>
-            <span> {{ question.value.text }}</span>
+            <div class="text-wrapper">
+              <span>{{ i + 1 }}) </span>
+              <span> {{ question.value.text }}</span>
+            </div>
+
           </mat-card-title>
         </mat-card-header>
         <div class="options">

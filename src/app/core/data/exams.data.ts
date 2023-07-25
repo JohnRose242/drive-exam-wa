@@ -7327,7 +7327,7 @@ export const examQuestions = [
       },
       {
         id: 4,
-        text: `.`
+        text: `Turn on your hazard lights.`
       }
     ],
     question: `When driving on roads that may be slippery:`,
@@ -8732,7 +8732,7 @@ export const examQuestions = [
       },
       {
         id: 2,
-        text: `Be at least 15-1/2 years old (or 15 years old if enrolled in an approved driver-training course);.`
+        text: `Be at least 15-1/2 years old (or 15 years old if enrolled in an approved driver-training course).`
       },
       {
         id: 3,
@@ -9142,7 +9142,7 @@ export const examQuestions = [
     options: [
       {
         id: 1,
-        text: `Call the Emergency Notification System (ENS) number and report the issue to the USDOT.`
+        text: `Call the Emergency Notification System (ENS) number and 911 to report the issue.`
       },
       {
         id: 2,
@@ -9319,6 +9319,122 @@ export const examQuestions = [
       }
     ],
     question: `If you are age 13 through 17 and convicted of a first alcohol or firearm violation, or age 13 through 20 and convicted of a first drug violation, your driving privilege will be:`,
+    response: null,
+  },
+  {
+    answer: 4,
+    imageId: 60,
+    options: [
+      {
+        id: 1,
+        text: `Post variable speed limits that help warn drivers of backups ahead in an attempt to evenly distribute the flow of traffic.`
+      },
+      {
+        id: 2,
+        text: `Quickly close entire lanes.`
+      },
+      {
+        id: 3,
+        text: `Provide warning information to drivers before they reach slower traffic.`
+      },
+      {
+        id: 4,
+        text: `All of these.`
+      }
+    ],
+    question: `Variable Speed Limit Signs like these, are used to:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Is illegal to drive within, over, or across the space.`
+      },
+      {
+        id: 2,
+        text: `Safe to use the space to turn around on the highway, if needed.`
+      },
+      {
+        id: 3,
+        text: `Safe to stop on the median provided your entire car if off the highway.`
+      },
+      {
+        id: 4,
+        text: `Legal to use the space to pass other vehicles.`
+      }
+    ],
+    question: `When a highway is divided by a median into two or more roadways, it is:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `Green pavement markings that are installed at intersections to allow bicyclists a safe way to turn when approaching a red light.`
+      },
+      {
+        id: 2,
+        text: `White pavement markings that indicate the space where a bicycle can legally be parked.`
+      },
+      {
+        id: 3,
+        text: `Yellow pavement markings that indicate where a bicycle can travel against the flow of traffic.`
+      },
+      {
+        id: 4,
+        text: `Red pavement markings that indicate spaces where it is illegal to ride a bicycle.`
+      }
+    ],
+    question: `Bicycle boxes are:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `All of these.`
+      },
+      {
+        id: 2,
+        text: `Slow down as you approach the roundabouts to about 15-20 mph.`
+      },
+      {
+        id: 3,
+        text: `Enter the roundabout when there is a gap in traffic.`
+      },
+      {
+        id: 4,
+        text: `Do not stop inside the roundabout.`
+      }
+    ],
+    question: `When driving in a roundabout:`,
+    response: null,
+  },
+  {
+    answer: 1,
+    options: [
+      {
+        id: 1,
+        text: `They are marked by double-dashed yellow lines.`
+      },
+      {
+        id: 2,
+        text: `They are marked by double-solid yellow lines.`
+      },
+      {
+        id: 3,
+        text: `They are marked by double-dashed white lines.`
+      },
+      {
+        id: 4,
+        text: `They are marked by single-solid yellow lines.`
+      }
+    ],
+    question: `How can you recognize a Reversible Lane, one designed to carry traffic in one direction at certain times and in the opposite direction at other times?`,
     response: null,
   },
 ]

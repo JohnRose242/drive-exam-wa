@@ -1,0 +1,22 @@
+@import './colors';
+
+$background: linear-gradient(
+    to right,
+    $green, $blue1, $green, $blue1, $green,
+);
+
+$header-background: linear-gradient(
+    to right,
+    $black, $blue1, $black, $blue1, $black,
+);
+
+$card-background: $header-background;
+
+$card-hover: linear-gradient(
+    to left,
+    $blue1, $blue2, $blue1, $blue2, $blue1,
+);
+
+$view-height: calc(100% - 55px);
+
+

@@ -1,13 +1,18 @@
+@import 'colors';
+@import 'vars';
+
 :host {
 
   .container {
-    padding: 4%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: $view-height;
+    background-color: $green;
+    background-image: $background;
+    color: $white;
   }
 
   .flashcard {
@@ -26,24 +31,25 @@
     width: 100%;
     text-align: center;
     backface-visibility: hidden;
-    border:2px solid #869B5B;
+    border: 2px solid $olive;
     display: flex;
     gap: 0.5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     line-height: 1.5;
+    padding: 0 1rem;
   }
 
   .flashcard .front {
-    color: white;
-    background-color: darkkhaki;
+    color: $white;
+    background-image: $card-background;
   }
 
   .flashcard .back {
     transform: rotateY(180deg);
-    color: #869B5B;
-    background-color: white;
+    color: $white;
+    background-image: $card-hover;
   }
 
 
@@ -56,5 +62,4 @@
     justify-content: center;
     gap: 2rem;
   }
-
 }

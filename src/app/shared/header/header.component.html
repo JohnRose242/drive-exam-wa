@@ -1,0 +1,11 @@
+<mat-toolbar>
+  <span color="primary">Prep2Test</span>
+  <div *ngIf="isLoggedIn$() | async">
+    <button mat-icon-button (click)="logout()" matTooltip="Logout">
+      <mat-icon>key_off</mat-icon>
+    </button>
+    <button mat-icon-button routerLink="/home" matTooltip="Go Home">
+      <mat-icon>home</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>

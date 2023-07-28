@@ -1,0 +1,13 @@
+@import 'colors';
+@import 'vars';
+
+:host {
+  .mat-toolbar {
+    background-color: $green;
+    background-image: $header-background;
+    border-bottom: 4px solid $olive;
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+  }
+}

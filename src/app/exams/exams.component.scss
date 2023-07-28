@@ -1,19 +1,23 @@
-:host {
+@import 'colors';
+@import 'vars';
 
-  height: 92.5%;
+:host {
+  height: $view-height;
+  background-color: $green;
+  background-image: $background;
   display: block;
   overflow: auto;
 
   .progress-container {
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+    border-bottom: 4px solid $olive;
     padding: 1rem;
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: #99206C;
-    color: white;
+    background-image: $header-background;
+    color: $white;
 
     div {
       align-items: center;
@@ -29,28 +33,28 @@
     padding-left: 1rem;
     padding-right: 1rem;
     &:nth-child(even) {
-      background-color: #869B5B;
+      background-color: $exam-even;
       &.correct {
-        background-color: #5FA052;
+        background-color: $correct;
       }
       &.incorrect {
-        background-color: #E32525;
+        background-color: $incorrect;
       }
     }
     &:nth-child(odd) {
-      background-color: darkkhaki;
+      background-color: $exam-odd;
       &.correct {
-        background-color: #5FA052;
+        background-color: $correct;
       }
       &.incorrect {
-        background-color: #E32525;
+        background-color: $incorrect;
       }
     }
   }
 
   .options {
-    background-color: white;
-    color: black;
+    background-color: $white;
+    color: $black;
     margin: 1rem;
 
     .radio-group {
@@ -68,12 +72,8 @@
   .correct-response {
     margin: 1rem;
     padding: 1rem;
-    background-color: white;
-    color: black;
-
-    .incorrect {
-      color: #E32525
-    }
+    background-color: $incorrect;
+    color: $white;
   }
 
   @media (max-width: 576px) {

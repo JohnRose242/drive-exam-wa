@@ -1,0 +1,10 @@
+@import './app-styles';
+@import './colors';
+@import './vars';
+
+
+.mat-mdc-raised-button:not(:disabled),
+.mat-mdc-unelevated-button:not(:disabled) {
+  background-color: $bright-green !important;
+  color: $white !important;
+}

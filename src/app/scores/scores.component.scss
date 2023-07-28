@@ -1,4 +1,19 @@
+@import 'colors';
+@import 'vars';
+
 :host {
+  height: $view-height;
+  background-color: $green;
+  background-image: $background;
+  display: block;
+  overflow: hidden;
+
+  .container {
+    height: calc(100% - 80px);
+    width: 100%;
+    overflow: auto;
+  }
+
   table {
     border-bottom: 1px solid black;
   }
@@ -10,6 +25,7 @@
   }
 
   .actions {
+    height: 125px;
     margin-top: 1rem;
     display: flex;
     justify-content: end;
@@ -18,6 +34,30 @@
   @media (max-width: 576px) {
     .optional {
       display: none;
+    }
+  }
+
+  .mat-mdc-header-row {
+    background-image: $header-background;
+    .mdc-data-table__header-cell {
+      color: $white !important;
+    }
+  }
+
+  .mat-mdc-row:hover {
+    background-color: $blue3;
+  }
+
+  .passed {
+    td {
+      color: $correct;
+      font-weight: bold;
+    }
+  }
+  .failed {
+    td {
+      color: $incorrect;
+      font-weight: bold;
     }
   }
 }

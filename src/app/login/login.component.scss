@@ -1,9 +1,13 @@
+@import 'colors';
+@import 'vars';
+
 :host {
-  height: calc(100% - 100px);
+  height: $view-height;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #869B5B;
+  background-color: $green;
+  background-image: $background;
 
   @media screen and (min-width: 400px) {
     .login-card {
@@ -34,7 +38,7 @@
     margin: 1rem 0;
   }
   .error {
-    color: red;
+    color: $incorrect;
     display: flex;
     justify-content: center;
   }

@@ -98,6 +98,8 @@
     mat-card-content {
       display: none !important;
     }
+  }
+  @media (max-height: 500px) {
     mat-card-subtitle {
       display: none !important;
     }

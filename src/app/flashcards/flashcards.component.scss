@@ -46,13 +46,13 @@
 
   .flashcard .front {
     color: $white;
-    background-image: $card-background;
+    background-color: $blue1;
   }
 
   .flashcard .back {
     transform: rotateY(180deg);
     color: $white;
-    background-image: $card-hover;
+    background-color: $olive;
   }
 
 

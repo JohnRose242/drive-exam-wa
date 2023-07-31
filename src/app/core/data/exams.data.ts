@@ -181,7 +181,7 @@ export const examQuestions = [
         text: 'None of these.'
       }
     ],
-    question: 'Your body gets rid of approximately:',
+    question: 'Your body gets rid of approximately how many alcoholic drinks per hour:',
     response: null,
   },
   {
@@ -605,6 +605,8 @@ export const examQuestions = [
       }
     ],
     question: 'Which of the following statements about winter is not true?',
+    flashcardQuestion: 'Which season is the most difficult driving season?',
+    flashcardResponse: 'Winter',
     response: null,
   },
   {
@@ -651,6 +653,8 @@ export const examQuestions = [
       }
     ],
     question: 'A flashing red light:',
+    flashcardQuestion: 'What does a flashing red light mean?',
+    flashcardResponse: 'That you must bring your vehicle to a complete stop.',
     response: null,
     showAll: true
   },
@@ -675,6 +679,8 @@ export const examQuestions = [
       }
     ],
     question: 'When parking your vehicle downhill on a two-way street:',
+    flashcardQuestion: 'When parking your vehicle downhill on a two-way street, what direction should you turn your wheels?',
+    flashcardResponse: 'To the right.',
     response: null,
   },
   {
@@ -767,6 +773,8 @@ export const examQuestions = [
       }
     ],
     question: `Marijuana that is smoked and marijuana that is consumed by way of marijuana-infused foods:`,
+    flashcardQuestion: 'Does marijuana that is smoked and marijuana that is consumed by way of marijuana-infused foods have the same or different risks?',
+    flashcardResponse: 'Different risks.',
     response: null,
   },
   {
@@ -790,6 +798,8 @@ export const examQuestions = [
       }
     ],
     question: `You are driving when it starts to sleet or snow.  You should:`,
+    flashcardQuestion: 'You are driving when it starts to sleet or snow. Should you decrease the distance between your vehicle and the vehicles that you are following?',
+    flashcardResponse: 'No, allow for additional distance.',
     response: null,
     showAll: true
   },
@@ -814,6 +824,8 @@ export const examQuestions = [
       }
     ],
     question: `As you drive, your are required to stop your vehicle:`,
+    flashcardQuestion: 'You must stop your vehicle at which of these: a red light, a stop sign, or when a traffic officer orders you to stop?',
+    flashcardResponse: 'All of these.',
     response: null,
     showAll: true
   },

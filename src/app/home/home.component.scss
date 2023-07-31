@@ -77,7 +77,7 @@
     }
   }
 
-  @media (max-width: 576px) {
+  @media (max-width: 1250px) {
     .content {
       flex-direction: column;
       justify-content: unset;
@@ -91,6 +91,12 @@
         display: none !important;
       }
 
+    }
+  }
+
+  @media (max-height: 750px) {
+    mat-card-content {
+      display: none !important;
     }
   }
 }

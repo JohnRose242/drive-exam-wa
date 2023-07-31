@@ -27,8 +27,9 @@ export class FlashcardsComponent implements OnInit {
     this.flashcard = {
       index,
       frontImage: card.imageId,
-      frontText: card.question,
-      backText: showAll
+      frontText: card.flashcardQuestion ?? card.question,
+      backText: card.flashcardResponse ? [card.flashcardResponse]
+        : showAll
         ? card.options.map((opt: any) => opt.text).filter((t: string) => t !== 'All of these.')
         : [card.options.find((opt: any) => opt.id === card.answer).text]
     };

@@ -9475,7 +9475,7 @@ export const examQuestions = [
     ],
     question: `When driving in a roundabout:`,
     flashcardQuestion: 'When approaching a roundabout, you should decrease your speed to:',
-    flashcardResponse: 'About 15-10 mph.',
+    flashcardResponse: 'About 15-20 mph.',
     response: null,
   },
   {

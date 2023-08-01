@@ -4991,7 +4991,7 @@ export const examQuestions = [
         text: `Engage the four-wheel drive on their vehicles.`
       }
     ],
-    question: `When driving under icy or snowy conditions, which driving technique will help drivers avoid crashed?:`,
+    question: `When driving under icy or snowy conditions, which driving technique will help drivers avoid crashes?:`,
     response: null,
   },
   {

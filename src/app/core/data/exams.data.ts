@@ -1058,6 +1058,8 @@ export const examQuestions = [
       }
     ],
     question: `Which of the following is true about driving on a wet roadway?`,
+    flashcardQuestion: `As you drive faster, your tires become ___ effective.`,
+    flashcardResponse: `Less.`,
     response: null,
   },
   {
@@ -1757,6 +1759,8 @@ export const examQuestions = [
       }
     ],
     question: `Which of the following statements is true?`,
+    flashcardQuestion: `A sudden change in weather calls for a ___ in driving.`,
+    flashcardResponse: `Change.`,
     response: null,
     showAll: true
   },
@@ -4355,6 +4359,8 @@ export const examQuestions = [
       }
     ],
     question: `Which of the following commonly causes traffic accidents?`,
+    flashcardQuestion: `Inattentive driving, excessive speed, or following too closely. Which of the following commonly causes traffic accidents?`,
+    flashcardResponse: `All of these.`,
     response: null,
     showAll: true
   },
@@ -4728,6 +4734,8 @@ export const examQuestions = [
       }
     ],
     question: `Which of the following is a safe way to drive through a curve?`,
+    flashcardQuestion: `When driving through a curve, you should ___ ___ as you enter and ___ ___ as you exit.`,
+    flashcardResponse: `Slow down. Speed up.`,
     response: null,
   },
   {
@@ -4914,7 +4922,7 @@ export const examQuestions = [
         text: `Always choose the most difficult route.`
       }
     ],
-    question: `When driving to an unfamilar area, you should:`,
+    question: `When driving to an unfamiliar area, you should:`,
     response: null,
   },
   {
@@ -5482,7 +5490,7 @@ export const examQuestions = [
       },
       {
         id: 3,
-        text: `At your side mirrow.`
+        text: `At your side mirror.`
       },
       {
         id: 4,
@@ -5999,6 +6007,8 @@ export const examQuestions = [
       }
     ],
     question: `Which is not a factor in determining the distance that it takes to stop your vehicle?`,
+    flashcardQuestion: `____ is a factor in determining the distance that it takes to stop your vehicle.`,
+    flashcardResponse: `Perception time, breaking distance, or reaction distance.`,
     response: null,
   },
   {
@@ -6045,6 +6055,8 @@ export const examQuestions = [
       }
     ],
     question: `Which of the following statements about railroad crossings is true?`,
+    flashcardQuestion: `True or False, all railroad crossings are equipped with flashing red signals and gates`,
+    flashcardResponse: `False.`,
     response: null,
   },
   {
@@ -6511,6 +6523,8 @@ export const examQuestions = [
       }
     ],
     question: `Emergency vehicles:`,
+    flashcardQuestion: `When do emergency vehicles have the right of way?`,
+    flashcardResponse: `When using sirens, horns, and/or flashing lights.`,
     response: null,
   },
   {
@@ -6580,6 +6594,8 @@ export const examQuestions = [
       }
     ],
     question: `Do not pass:`,
+    flashcardQuestion: `When is it not a good idea to pass another vehicle?`,
+    flashcardResponse: `On a hill or curve, when approaching an intersection, or when school bus lights are flashing.`,
     response: null,
   },
   {
@@ -7713,7 +7729,7 @@ export const examQuestions = [
         text: `Bad roads.`
       }
     ],
-    question: `Which is the most common cause of traffic crashes?`,
+    question: `What is the most common cause of traffic crashes?`,
     response: null,
   },
   {
@@ -7736,7 +7752,7 @@ export const examQuestions = [
         text: `Flashing red lights.`
       }
     ],
-    question: `Which of the following are used on some highways to direct drivers into the proper lanes for turning?`,
+    question: `What are used on some highways to direct drivers into the proper lanes for turning?`,
     response: null,
   },
   {
@@ -7991,6 +8007,8 @@ export const examQuestions = [
       }
     ],
     question: `Which of the following is true regarding seat belts and child restraints in vehicles?`,
+    flashcardQuestion: `You should ___ place an infant or small child in the front seat of a vehicle with airbags.`,
+    flashcardResponse: `Never.`,
     response: null,
   },
   {
@@ -8475,7 +8493,7 @@ export const examQuestions = [
         text: `When the road is wet or slippery.`
       }
     ],
-    question: `It is important to slow down:`,
+    question: `When/Where is it important to slow down:`,
     response: null,
   },
   {
@@ -8522,6 +8540,8 @@ export const examQuestions = [
       }
     ],
     question: `Which of the following statements is true?`,
+    flashcardQuestion: `Signal at least ___ feet before changing lanes to pass and ensure there is no oncoming traffic.`,
+    flashcardResponse: '100.',
     response: null,
   },
   {
@@ -8663,7 +8683,7 @@ export const examQuestions = [
         text: `Residing in Washington for more than 6 months in the calendar year.`
       }
     ],
-    question: `Which of these help establish residency in Washington state?`,
+    question: `What event(s) help establish residency in Washington state?`,
     response: null,
   },
   {
@@ -8767,7 +8787,7 @@ export const examQuestions = [
       },
       {
         id: 2,
-        text: `You cannot drive between 1AM and 5AM. unless you are with a parent, a guardian, or a licensed driver who is at least 25 years old.`
+        text: `You cannot drive between 1AM and 5AM unless you are with a parent, a guardian, or a licensed driver who is at least 25 years old.`
       },
       {
         id: 3,
@@ -8779,6 +8799,8 @@ export const examQuestions = [
       }
     ],
     question: `Which of these are a restriction under the Intermediate Driver License?`,
+    flashcardQuestion: `Under the Intermediate Driver License, you cannot drive between the hours of ___ and ___, unless you are with a parent, a guardian, or a licensed driver who is at least 25 years old.`,
+    flashcardResponse: `1AM and 5AM.`,
     response: null,
   },
   {
@@ -8848,6 +8870,8 @@ export const examQuestions = [
       }
     ],
     question: `Which of these events might lead you to lose your Washington Driver License?`,
+    flashcardQuestion: `Leaving a gas station without paying for fuel you have pumped in Washington, might lead you to:`,
+    flashcardResponse: `Lose your Washington Driver License`,
     response: null,
   },
   {
@@ -8917,6 +8941,8 @@ export const examQuestions = [
       }
     ],
     question: `Risk is generated by:`,
+    flashcardQuestion: `The driver, the vehicle, or the roadway environment. Risk is generated by:`,
+    flashcardResponse: `All of these.`,
     response: null,
   },
   {
@@ -8928,18 +8954,20 @@ export const examQuestions = [
       },
       {
         id: 2,
-        text: `Keeping your vehicle in good working condition.`
+        text: `Keep your vehicle in good working condition.`
       },
       {
         id: 3,
-        text: `Wearing seat belts.`
+        text: `Wear seat belts.`
       },
       {
         id: 4,
-        text: `Practicing safe driving habits.`
+        text: `Practice safe driving habits.`
       }
     ],
-    question: `Which of these helps reduce driving risk?`,
+    question: `How can you reduce driving risk?`,
+    flashcardQuestion: `Wearing seat belts and practicing safe driving habits, ___ driving rick.`,
+    flashcardResponse: 'Reduce.',
     response: null,
   },
   {
@@ -8962,7 +8990,7 @@ export const examQuestions = [
         text: `Overdosing on Controlled Substances.`
       }
     ],
-    question: `Which of these is the leading cause of death for young people ages 16 to 25 in Washington state?`,
+    question: `What is the leading cause of death for young people ages 16 to 25 in Washington state?`,
     response: null,
   },
   {
@@ -8986,6 +9014,8 @@ export const examQuestions = [
       }
     ],
     question: `Which of these is not recommended to secure a load in your vehicle or trailer:`,
+    flashcardQuestion: `When travelling with a load in your vehicle or trailer, you should never ___ the vehicle or trailer.`,
+    flashcardResponse: `Overload.`,
     response: null,
   },
   {
@@ -9008,7 +9038,7 @@ export const examQuestions = [
         text: `Failing to come to a full stop at a stop sign.`
       }
     ],
-    question: `Washington passed “Maria’s Law” in 2005, which made which of these a crime:`,
+    question: `Washington passed “Maria’s Law” in 2005, which made what a crime:`,
     response: null,
   },
   {
@@ -9032,6 +9062,8 @@ export const examQuestions = [
       }
     ],
     question: `Why should you wear your seat belt when driving or riding in a car?`,
+    flashcardQuestion: `What is the single most effective thing you can do to protect yourself in a crash?`,
+    flashcardResponse: `Buckling up your seat belt correctly.`,
     response: null,
   },
   {
@@ -9078,6 +9110,8 @@ export const examQuestions = [
       }
     ],
     question: `Child safety restraints include:`,
+    flashcardQuestion: `A forward- or rear-facing car seat, a booster seat, or a seat belt. Child safety restraints include:`,
+    flashcardResponse: `All of these.`,
     response: null,
   },
   {
@@ -9124,6 +9158,8 @@ export const examQuestions = [
       }
     ],
     question: `If your headlights go out while driving, you should:`,
+    flashcardQuestion: `If your headlights go out while driving and won't come back on after you try the switch a few times, you should:`,
+    flashcardResponse: `Put on the emergency flashers, turn signals, or fog lights and pull off the road as soon as possible.`,
     response: null,
   },
   {
@@ -9146,7 +9182,7 @@ export const examQuestions = [
         text: `Remove your hands from the steering wheel.`
       }
     ],
-    question: `If there is no way to avoid a collision and your car is going to be hit from the fron, you should:`,
+    question: `If there is no way to avoid a collision and your car is going to be hit from the front, you should:`,
     response: null,
   },
   {
@@ -9193,6 +9229,8 @@ export const examQuestions = [
       }
     ],
     question: `Which of these is an important aspect of vision when driving?`,
+    flashcardQuestion: 'Side vision, judging distances and speeds, or night vision. Which of these is an important aspect of vision when driving?',
+    flashcardResponse: 'All of these.',
     response: null,
   },
   {
@@ -9216,6 +9254,8 @@ export const examQuestions = [
       }
     ],
     question: `If you are required to wear glasses to drive, you should remember to do all of these except:`,
+    flashcardQuestion: 'If you are required to wear glasses to drive, should you wear dark glasses or tinted contact lenses to drive at night?',
+    flashcardResponse: 'No.',
     response: null,
   },
   {
@@ -9238,7 +9278,9 @@ export const examQuestions = [
         text: `Under any authority of law.`
       }
     ],
-    question: `In Wasgington, a law enforcement officer may obtain a person’s blood to test for alcohol, marijuana, or any drug, pursuant to:`,
+    question: `In Washington, a law enforcement officer may obtain a person’s blood to test for alcohol, marijuana, or any drug, pursuant to:`,
+    flashcardQuestion: 'In Washington, may a law enforcement officer obtain a person’s blood to test for alcohol, marijuana, or any drug?',
+    flashcardResponse: 'Yes, under a search warrant, a valid waiver of the warrant requirement when exigent circumstances exist, or under any other authority of law.',
     response: null,
   },
   {
@@ -9308,6 +9350,8 @@ export const examQuestions = [
       }
     ],
     question: `If you are charged with a DUI, you may be eligible for Deferred Prosecution. Which of these applies to that program?`,
+    flashcardQuestion: 'How many times in your lifetime can you use the Deferred Prosecution program?',
+    flashcardResponse: `Only once in your lifetime.`,
     response: null,
   },
   {
@@ -9331,6 +9375,8 @@ export const examQuestions = [
       }
     ],
     question: `If you are age 13 through 17 and convicted of a first alcohol or firearm violation, or age 13 through 20 and convicted of a first drug violation, your driving privilege will be:`,
+    flashcardQuestion: `Can your driver's license be revoked if you are age 13 through 17 and convicted of an alcohol or firearm violation?`,
+    flashcardResponse: 'Yes.  For one year or until age 17, whichever is longer, for a first offense; and, for two years or until age 18, whichever is longer, for a second offense.',
     response: null,
   },
   {
@@ -9355,6 +9401,8 @@ export const examQuestions = [
       }
     ],
     question: `Variable Speed Limit Signs like these, are used to:`,
+    flashcardQuestion: 'What types of signs are used to quickly close entire lanes and provide warning information to drivers before they reach slower traffic?',
+    flashcardResponse: 'Variable Speed Limit Signs.',
     response: null,
   },
   {
@@ -9378,6 +9426,8 @@ export const examQuestions = [
       }
     ],
     question: `When a highway is divided by a median into two or more roadways, it is:`,
+    flashcardQuestion: 'When a highway is divided by a median into two or more roadways, it is ___ to drive within, over, or across the space.',
+    flashcardResponse: 'Illegal.',
     response: null,
   },
   {
@@ -9424,6 +9474,8 @@ export const examQuestions = [
       }
     ],
     question: `When driving in a roundabout:`,
+    flashcardQuestion: 'When approaching a roundabout, you should decrease your speed to:',
+    flashcardResponse: 'About 15-10 mph.',
     response: null,
   },
   {

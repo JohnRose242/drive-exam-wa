@@ -1,1 +1,156 @@
-@import 'menu-view';
+@import './app-styles';
+@import './colors';
+@import './vars';
+
+
+.content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+  align-items: center;
+  justify-content: space-between;
+  height: $view-height;
+  background-color: $green;
+  background-image: $background;
+
+  &.home {
+    mat-card {
+      background-color: $blue1;
+    }
+  }
+  &.drivers-ed {
+    mat-card {
+      background-color: $green;
+    }
+  }
+
+  mat-card {
+    width: 30%;
+    height: 60%;
+    color: $white;
+    cursor: pointer;
+    border: 4px solid $olive;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    &:hover {
+      background-image: $card-hover;
+      border: 4px solid $white;
+
+      .coming-soon {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
+    mat-card-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: $view-height;
+      position: relative;
+
+      &:after {
+        font-family: "Material Icons", serif;
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 90%;
+        font-size: 400px;
+        background: transparent;
+      }
+
+      &.flashcards {
+        &:after {
+          content: "\E661";
+        }
+      }
+      &.exams {
+        &:after {
+          content: "\F8EA";
+        }
+      }
+      &.scores {
+        &:after {
+          content: "\E26B";
+        }
+      }
+      &.driving {
+        &:after {
+          content: "\E52E";
+        }
+      }
+      &.school {
+        &:after {
+          content: "\E54B";
+        }
+      }
+      &.sat {
+        &:after {
+          content: "\EA09";
+        }
+      }
+    }
+  }
+
+  .mat-mdc-card-subtitle {
+    color: $white;
+  }
+
+  button {
+    min-width: 300px;
+    text-transform: uppercase;
+  }
+}
+
+.coming-soon {
+  position: absolute;
+  top: auto;
+  bottom: 2rem;
+  left: auto;
+  right: auto;
+  color: $sand;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+  font-size: 3rem;
+  z-index: 100;
+}
+
+@media (max-width: 1250px) {
+  .content {
+    flex-direction: column;
+    justify-content: unset;
+    mat-card {
+      width: 90%;
+      height: 20%;
+      border: 4px solid transparent;
+      box-sizing: border-box;
+    }
+    mat-card-content {
+      display: none !important;
+    }
+
+  }
+}
+
+@media (max-height: 750px) {
+  mat-card-content {
+    display: none !important;
+  }
+}
+@media (max-height: 500px) {
+  mat-card-header {
+    padding: 5px;
+  }
+  mat-card-subtitle {
+    display: none !important;
+  }
+}
+

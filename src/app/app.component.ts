@@ -23,6 +23,24 @@ export class AppComponent {
     private router: Router,
     private title: Title
   ) {
+    const ignoreMobile = localStorage.getItem('prep-2-test-ignore-mobile');
+    if(!ignoreMobile && (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))){
+      const data = {
+        title: 'Mobile Device Detected',
+        message: 'Prep2Test on mobile devices is best used in Portrait mode. You may experience some issues in Landscape mode.',
+        proceedText: 'OK',
+        hideCancel: true
+      }
+      const dialogRef = this.dialog.open(ConfirmationDialogComponent, {
+        data
+      });
+      dialogRef.afterClosed().subscribe(dialogResult => {
+        if (dialogResult) {
+          localStorage.setItem('prep-2-test-ignore-mobile', JSON.stringify(true));
+        }
+      });
+    }
+
     this.router.events.pipe(
       filter((event) => event instanceof NavigationEnd),
       tap((event) => {

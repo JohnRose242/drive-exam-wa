@@ -60,10 +60,6 @@ const routes: Routes = [
     data: {
       headerLinks: [
         {
-          route: '/home',
-          text: `Prep2Test`
-        },
-        {
           route: '/drivers-ed',
           text: `Driver's Ed`
         },
@@ -84,10 +80,6 @@ const routes: Routes = [
     data: {
       headerLinks: [
         {
-          route: '/home',
-          text: `Prep2Test`
-        },
-        {
           route: '/drivers-ed',
           text: `Driver's Ed`
         },
@@ -107,10 +99,6 @@ const routes: Routes = [
     canActivate: [LoggedInGuard],
     data: {
       headerLinks: [
-        {
-          route: '/home',
-          text: `Prep2Test`
-        },
         {
           route: '/drivers-ed',
           text: `Driver's Ed`

@@ -65,4 +65,10 @@
     justify-content: center;
     gap: 2rem;
   }
+
+  .card-instruction {
+    position: absolute;
+    bottom: 0;
+    font-size: .75rem;
+  }
 }

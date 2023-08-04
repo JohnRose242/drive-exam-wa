@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { LoginService } from '../../core/services/login.service';
 import { ConfirmationDialogComponent } from '../confirmation-dialog/confirmation-dialog.component';
@@ -9,6 +9,7 @@ import { ConfirmationDialogComponent } from '../confirmation-dialog/confirmation
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+  @Input() public headerLinks: {route?: string, text: string}[] = [];
   public isLoggedIn$ = this.loginService.userIsLoggedIn$;
 
   constructor(

@@ -1,5 +1,11 @@
 <mat-toolbar>
-  <span color="primary">Prep2Test</span>
+  <div>
+    <span *ngFor="let link of headerLinks; let first = first" [routerLink]="link.route">
+      <span *ngIf="!first"> > </span>
+      <span *ngIf="!link.route">{{ link.text }}</span>
+      <a *ngIf="link.route" [routerLink]="link.route">{{ link.text }}</a>
+    </span>
+  </div>
   <div *ngIf="isLoggedIn$() | async">
     <button mat-icon-button (click)="logout()" matTooltip="Logout">
       <mat-icon>key_off</mat-icon>

@@ -21,23 +21,23 @@ export class ExamService {
   }
 
   public getScores() {
-    const scores = localStorage.getItem('driver-exam-scores');
+    const scores = localStorage.getItem('prep-2-test-scores');
     return scores ? JSON.parse(scores) : [];
   }
 
   public postScore(scoreObj: any) {
-    const scores = localStorage.getItem('driver-exam-scores');
+    const scores = localStorage.getItem('prep-2-test-scores');
     if (scores) {
       const scoresArray = JSON.parse(scores);
       scoresArray.unshift(scoreObj)
-      localStorage.setItem('driver-exam-scores', JSON.stringify(scoresArray));
+      localStorage.setItem('prep-2-test-scores', JSON.stringify(scoresArray));
     } else {
-      localStorage.setItem('driver-exam-scores', JSON.stringify([scoreObj]));
+      localStorage.setItem('prep-2-test-scores', JSON.stringify([scoreObj]));
     }
   }
 
   public resetScores() {
-    localStorage.removeItem('driver-exam-scores');
+    localStorage.removeItem('prep-2-test-scores');
   }
 
   public randomize(questions: any) {

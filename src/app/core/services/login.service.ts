@@ -10,7 +10,7 @@ export class LoginService {
   constructor(private router: Router) { }
 
   public isLoggedIn(): boolean {
-    const loggedInUser = localStorage.getItem('driver-exam-loggedInUser');
+    const loggedInUser = localStorage.getItem('prep-2-test-loggedInUser');
     if (!loggedInUser) {
       this.router.navigate(['login']);
       return false;
@@ -18,7 +18,7 @@ export class LoginService {
     const data = JSON.parse(loggedInUser);
     const now = new Date();
     if (now.getTime() > data.expiry) {
-      localStorage.removeItem('driver-exam-loggedInUser');
+      localStorage.removeItem('prep-2-test-loggedInUser');
       this.router.navigate(['login']);
       return false
     }
@@ -26,7 +26,7 @@ export class LoginService {
   }
 
   public userIsLoggedIn$() {
-    return of(!!(localStorage.getItem('driver-exam-loggedInUser')));
+    return of(!!(localStorage.getItem('prep-2-test-loggedInUser')));
   }
 
   public login(name: string, password: string): Observable<boolean> {
@@ -36,7 +36,7 @@ export class LoginService {
         name,
         expiry: now.getTime() + 86400000 // 24 hours
       }
-      localStorage.setItem('driver-exam-loggedInUser', JSON.stringify(data));
+      localStorage.setItem('prep-2-test-loggedInUser', JSON.stringify(data));
       return of(true);
     } else {
       return throwError('Password is not correct. Please try again.')
@@ -44,7 +44,7 @@ export class LoginService {
   }
 
   public logout(): boolean {
-    localStorage.removeItem('driver-exam-loggedInUser');
+    localStorage.removeItem('prep-2-test-loggedInUser');
     this.router.navigate(['login']);
     return false
   }
